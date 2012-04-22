@@ -21,18 +21,18 @@ import com.google.android.maps.GeoPoint;
 
 public class ParseAllNetwork extends AsyncTask<String, String, String> {
 	
-	private static String ALL_NETWORK_KML_PATH = "/unzipped/ciclabili-percorsi_ciclabili.kml";
-	
 	private Network _network;
+	private File _definitionFile;
 	private ArrayList<Route> _parsedroutes = new ArrayList<Route>(); 
 
-	public ParseAllNetwork(Network network){
+	public ParseAllNetwork(Network network, File definitionFile){
+		_definitionFile = definitionFile;
 		_network = network;
 	}
 	
 	@Override
 	protected String doInBackground(String... arg0) {
-		parseXML(Environment.getExternalStorageDirectory() + ALL_NETWORK_KML_PATH);
+		parseXML(_definitionFile);
 		return null;
 	}
 	
@@ -42,16 +42,14 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 		super.onPostExecute(result);
 	}
 
-	public void parseXML(String fileLocation){
+	public void parseXML(File definitionFile){
 		
 		NodeList nList = null;
 		
 		try {
-			//Extract data from XML
-			File fXmlFile = new File(fileLocation);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(fXmlFile);
+			Document doc = dBuilder.parse(definitionFile);
 			doc.getDocumentElement().normalize();
 	 
 			//List of "Placemark" nodes

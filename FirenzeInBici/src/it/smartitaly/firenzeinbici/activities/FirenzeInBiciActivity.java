@@ -1,13 +1,19 @@
 package it.smartitaly.firenzeinbici.activities;
 
+import java.io.FileNotFoundException;
+
+import it.smartitaly.firenzeinbici.AppPaths;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.Network;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TabHost;
 
 
@@ -17,7 +23,21 @@ public class FirenzeInBiciActivity extends TabActivity {
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.tablayout);
 	    
-	    final Network network = new Network();
+	    AppPaths paths = null;
+		try {
+			paths = new AppPaths(
+					"FirenzeInBici",
+					"routes.xml",
+					"ciclabili-percorsi_ciclabili.kml",
+					"rastrelliere.kml");
+		} catch (FileNotFoundException e) {			
+			e.printStackTrace();
+		}
+		GlobalState gs = (GlobalState) getApplication();
+		gs.setAppPaths(paths);
+	    
+	    final Network network = new Network(paths.getFile(AppPaths.Resources.ALL_NETWORK_FILE));
+	    
 	    Resources res = getResources(); // Resource object to get Drawables
 	    final TabHost tabHost = getTabHost();  // The activity TabHost
 	    TabHost.TabSpec spec;  // Resusable TabSpec for each tab

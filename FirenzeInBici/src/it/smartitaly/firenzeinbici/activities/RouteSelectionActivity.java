@@ -1,5 +1,6 @@
 package it.smartitaly.firenzeinbici.activities;
 
+import it.smartitaly.firenzeinbici.AppPaths;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.Route;
@@ -27,10 +28,12 @@ public class RouteSelectionActivity extends MapActivity {
 		List<Overlay> listOfOverlays;
 		ListView listroutes;
 		List<Route> finalroutes = new ArrayList<Route>();
+		GlobalState _globalState;
 		
 	    /** Called when the activity is first created. */
 		@Override
 	    public void onCreate(Bundle savedInstanceState) {
+			initGlobalState();
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.listroutes);
 	        
@@ -38,8 +41,7 @@ public class RouteSelectionActivity extends MapActivity {
 	        
 	        listroutes = (ListView)findViewById(R.id.listroutes);
 	        
-	        finalroutes = Route.getAll(Environment.getExternalStorageDirectory() + 
-	        		"/unzipped/routes.xml");
+	        finalroutes = Route.getAll(_globalState.getAppPaths().getFile(AppPaths.Resources.ROUTES_FILE));
 
 	        ArrayList<HashMap<String,Object>> myroutes = new ArrayList<HashMap<String,Object>>();
 	        
@@ -60,16 +62,17 @@ public class RouteSelectionActivity extends MapActivity {
 	        listroutes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 				@Override
-				public void onItemClick(AdapterView<?> arg0, View arg1, int selected_index, long arg3) {
-						GlobalState gs = (GlobalState)getApplication();
-						
+				public void onItemClick(AdapterView<?> arg0, View arg1, int selected_index, long arg3) {						
 						Intent i = new Intent().setClass(getApplicationContext(), MyRouteMapActivity.class);
-						gs.setActiveRoute(finalroutes.get(selected_index));
+						_globalState.setActiveRoute(finalroutes.get(selected_index));
 				        startActivity(i);
 				}
 			});
 	    }
-		
+	
+		private void initGlobalState(){
+			_globalState = (GlobalState)getApplication();
+		}
 		
 	@Override
 	protected boolean isRouteDisplayed() {

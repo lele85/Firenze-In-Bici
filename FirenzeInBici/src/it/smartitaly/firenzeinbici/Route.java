@@ -24,18 +24,17 @@ public class Route {
 	private int ztl_percentage;
 	private int photo;
 	
-	public static List<Route> getAll(String path){
+	public static List<Route> getAll(File definitionFile){
 		
 		NodeList nList;
 		ArrayList<Route> routes = new ArrayList<Route>();
 		
 		try {
-			File fXmlFile = new File(path);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder;
 			dBuilder = dbFactory.newDocumentBuilder();
 			
-			Document doc = dBuilder.parse(fXmlFile);
+			Document doc = dBuilder.parse(definitionFile);
 			doc.getDocumentElement().normalize();
 			
 			nList = doc.getElementsByTagName("route");

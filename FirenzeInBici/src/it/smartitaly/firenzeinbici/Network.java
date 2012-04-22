@@ -2,6 +2,7 @@ package it.smartitaly.firenzeinbici;
 
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
 
+import java.io.File;
 import java.util.ArrayList;
 
 
@@ -9,9 +10,10 @@ public class Network {
 
 	private ArrayList<Route> _routes = new ArrayList<Route>();
 	private OnNetworkDataAvailableListener _listener;
+	private File _definitionFile;
 	
-	public Network(){
-		
+	public Network(File definitionFile){
+		_definitionFile =  definitionFile;
 	}
 	
 	public void onRoutesParsed(ArrayList<Route> routes){
@@ -24,7 +26,7 @@ public class Network {
 	}
 	
 	public void load(){
-		ParseAllNetwork task = new ParseAllNetwork(this);
+		ParseAllNetwork task = new ParseAllNetwork(this, _definitionFile);
 		task.execute("");
 	}
 	
