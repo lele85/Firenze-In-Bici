@@ -1,5 +1,7 @@
 package it.smartitaly.firenzeinbici.overlays;
 
+import java.util.ArrayList;
+
 import it.smartitaly.firenzeinbici.Network;
 import it.smartitaly.firenzeinbici.Route;
 import android.graphics.Canvas;
@@ -29,19 +31,16 @@ public class NetworkOverlay extends Overlay {
             paint.setStyle(Paint.Style.STROKE);
             paint.setAntiAlias(true);
             paint.setStrokeWidth(3);
-            for (Route route : _network.getRoutes()){
+            for (ArrayList<GeoPoint> path : _network.getPaths()){
             	int x1 = -1, y1 = -1, x2 = -1, y2 = -1;
-            	for (GeoPoint geopoint : route.getCoordinates()) {
+            	for (GeoPoint geopoint: path) {
             		Point point = new Point();
                 	mv.getProjection().toPixels(geopoint, point);
-                        
                     x2 = point.x;
                     y2 = point.y;
-                    	
                     if ((x1 != -1) && (y1 != -1)) {
                       	canvas.drawLine(x1, y1, x2, y2, paint);
                     }
-                        
                     x1 = x2;
                     y1 = y2;	
 				}

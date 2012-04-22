@@ -22,7 +22,7 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 	
 	private Network _network;
 	private File _definitionFile;
-	private ArrayList<Route> _parsedroutes = new ArrayList<Route>(); 
+	private ArrayList<ArrayList<GeoPoint>> _parsed_paths = new ArrayList<ArrayList<GeoPoint>>(); 
 
 	public ParseAllNetwork(Network network, File definitionFile){
 		_definitionFile = definitionFile;
@@ -37,7 +37,7 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 	
 	@Override
 	protected void onPostExecute(String result) {
-		_network.onRoutesParsed(_parsedroutes);
+		_network.onRoutesParsed(_parsed_paths);
 		super.onPostExecute(result);
 	}
 
@@ -63,9 +63,8 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 	}
 	
 	public void extractCoordinates(NodeList nList){
-		Route newroute = new Route(null,null,null,null,"");
 		for (int i = 0; i < nList.getLength(); i++){
-			ArrayList<GeoPoint> newsegment = new ArrayList<GeoPoint>();
+			ArrayList<GeoPoint> path = new ArrayList<GeoPoint>();
 			Node nNodeExt = nList.item(i);
 			if (nNodeExt.getNodeType() == Node.ELEMENT_NODE){
 				Element ePlacemarks = (Element) nNodeExt;
@@ -82,12 +81,11 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 						Element eCoordinates = (Element) nNodeInt;
 						String[] appl = getTagValue("coordinates",eCoordinates).split("[ ]");
 		    		  	for (int a = 0; a < appl.length; a++){
-		    				newsegment.add(returnGeo(appl[a]));
+		    				path.add(returnGeo(appl[a]));
 						}
-		    		  	newroute = new Route(null,null,center,newsegment,"");
 					}
 				}
-    		  	_parsedroutes.add(newroute);
+    		  	_parsed_paths.add(path);
 			}
 		}
 	}

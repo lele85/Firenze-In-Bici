@@ -4,11 +4,14 @@ import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
+
+import com.google.android.maps.GeoPoint;
 
 
 public class Network {
 
-	private ArrayList<Route> _routes = new ArrayList<Route>();
+	private ArrayList<ArrayList<GeoPoint>> _paths = new ArrayList<ArrayList<GeoPoint>>();
 	private OnNetworkDataAvailableListener _listener;
 	private File _definitionFile;
 	
@@ -16,8 +19,8 @@ public class Network {
 		_definitionFile =  definitionFile;
 	}
 	
-	public void onRoutesParsed(ArrayList<Route> routes){
-		_routes = routes;
+	public void onRoutesParsed(ArrayList<ArrayList<GeoPoint>> paths){
+		_paths = paths;
 		_listener.OnNetworkDataAvailable();
 	}
 	
@@ -30,7 +33,7 @@ public class Network {
 		task.execute("");
 	}
 	
-	public ArrayList<Route> getRoutes(){
-		return _routes;
+	public ArrayList<ArrayList<GeoPoint>> getPaths(){
+		return _paths;
 	}
 }
