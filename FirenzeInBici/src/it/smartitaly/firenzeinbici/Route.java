@@ -12,6 +12,9 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
 import com.google.android.maps.GeoPoint;
 
 public class Route {
@@ -22,7 +25,7 @@ public class Route {
 	private int cyclable_percentage;
 	private int street_percentage;
 	private int ztl_percentage;
-	private int photo;
+	private String thumb_name;
 	
 	public static List<Route> getAll(File definitionFile){
 		
@@ -48,6 +51,7 @@ public class Route {
 				int percentage_cyclable = Integer.parseInt(getTagValue("percentage_cyclable",eNode));
 				int percentage_street = Integer.parseInt(getTagValue("percentage_street",eNode));
 				int percentage_ztl = Integer.parseInt(getTagValue("percentage_ztl",eNode));
+				String thumb_name = getTagValue("thumb_name",eNode);
 				GeoPoint center = ManageGeoPoints.getRouteCenter(geopoints);
 				
 				Route route = new Route(
@@ -55,7 +59,7 @@ public class Route {
 						description,
 						center,
 						geopoints,
-						1);
+						thumb_name);
 				routes.add(route);
 			}
 			
@@ -67,12 +71,12 @@ public class Route {
 		return routes;
 	}
 	
-	public Route(String name, String description, GeoPoint center, List<GeoPoint> coordinates, int photo){
+	public Route(String name, String description, GeoPoint center, List<GeoPoint> coordinates, String thumbName){
 		this.name = name;
 		this.description = description;
 		this.center = center;
 		this.coordinates = coordinates;
-		this.photo = photo;
+		this.thumb_name = thumbName;
 	}
 	
 	public String getName(){
@@ -91,8 +95,14 @@ public class Route {
 		return coordinates;
 	}
 	
-	public int getPhoto(){
-		return photo;
+	public String getThumb(){
+		return thumb_name;
+	}
+	
+	public Bitmap getThumb(AppPaths paths){
+        File thumb = paths.getImageFile(thumb_name);
+        Bitmap bitmap = BitmapFactory.decodeFile(thumb.getAbsolutePath());
+        return bitmap;
 	}
 	
 	private static String getTagValue(String sTag, Element eElement) {

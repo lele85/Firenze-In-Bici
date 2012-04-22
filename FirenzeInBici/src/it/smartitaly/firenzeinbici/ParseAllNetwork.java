@@ -64,7 +64,7 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 	}
 	
 	public void extractCoordinates(NodeList nList){
-		Route newroute = new Route(null,null,null,null,0);
+		Route newroute = new Route(null,null,null,null,"");
 		for (int i = 0; i < nList.getLength(); i++){
 			ArrayList<GeoPoint> newsegment = new ArrayList<GeoPoint>();
 			Node nNodeExt = nList.item(i);
@@ -85,7 +85,7 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 		    		  	for (int a = 0; a < appl.length; a++){
 		    				newsegment.add(returnGeo(appl[a]));
 						}
-		    		  	newroute = new Route(null,null,center,newsegment,0);
+		    		  	newroute = new Route(null,null,center,newsegment,"");
 					}
 				}
     		  	_parsedroutes.add(newroute);

@@ -29,7 +29,8 @@ public class FirenzeInBiciActivity extends TabActivity {
 					"FirenzeInBici",
 					"routes.xml",
 					"ciclabili-percorsi_ciclabili.kml",
-					"rastrelliere.kml");
+					"rastrelliere.kml",
+					"img");
 		} catch (FileNotFoundException e) {			
 			e.printStackTrace();
 		}
