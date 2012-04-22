@@ -6,7 +6,6 @@ import java.util.EnumMap;
 import java.util.Map;
 
 import android.os.Environment;
-import android.util.Log;
 
 public class AppPaths {
 	

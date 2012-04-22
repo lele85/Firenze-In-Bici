@@ -8,8 +8,8 @@
                 android:layout_width="120dip"
                 android:layout_height="60dip"
                 android:contentDescription="@+string/routedescription"/>
-
-        <TextView android:id="@+id/routename"
+        
+        <TextView android:id="@+id/route_lenght"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dip"
@@ -22,6 +22,5 @@
                 android:layout_marginLeft="5dip"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_toRightOf="@id/routeimage"
-                android:layout_below="@+id/routename"/>
-            	
+                android:layout_below="@+id/route_lenght"/>
 </RelativeLayout>

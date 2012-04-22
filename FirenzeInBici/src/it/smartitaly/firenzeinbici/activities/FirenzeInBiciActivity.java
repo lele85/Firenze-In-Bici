@@ -1,19 +1,17 @@
 package it.smartitaly.firenzeinbici.activities;
 
-import java.io.FileNotFoundException;
-
 import it.smartitaly.firenzeinbici.AppPaths;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.Network;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
-import android.app.AlertDialog;
-import android.app.Dialog;
+
+import java.io.FileNotFoundException;
+
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TabHost;
 
 

@@ -1,8 +1,6 @@
 package it.smartitaly.firenzeinbici;
 
 import android.app.Application;
-import android.graphics.Path;
-import android.graphics.drawable.shapes.PathShape;
 
 public class GlobalState extends Application {
 	

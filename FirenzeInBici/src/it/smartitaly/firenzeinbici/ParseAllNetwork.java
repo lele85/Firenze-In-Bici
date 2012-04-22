@@ -14,7 +14,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import android.os.AsyncTask;
-import android.os.Environment;
 
 import com.google.android.maps.GeoPoint;
 

@@ -26,6 +26,7 @@ public class Route {
 	private int street_percentage;
 	private int ztl_percentage;
 	private String thumb_name;
+	private double lenght;
 	
 	public static List<Route> getAll(File definitionFile){
 		
@@ -71,12 +72,17 @@ public class Route {
 		return routes;
 	}
 	
-	public Route(String name, String description, GeoPoint center, List<GeoPoint> coordinates, String thumbName){
+	public Route(String name,
+			String description,
+			GeoPoint center,
+			List<GeoPoint> coordinates,
+			String thumbName){
 		this.name = name;
 		this.description = description;
 		this.center = center;
 		this.coordinates = coordinates;
 		this.thumb_name = thumbName;
+		this.lenght = DistanceCalculator.calculateLenght(coordinates);
 	}
 	
 	public String getName(){
@@ -89,6 +95,10 @@ public class Route {
 	
 	public GeoPoint getCenter(){
 		return center;
+	}
+	
+	public double getLenght(){
+		return lenght;
 	}
 	
 	public List<GeoPoint> getCoordinates(){

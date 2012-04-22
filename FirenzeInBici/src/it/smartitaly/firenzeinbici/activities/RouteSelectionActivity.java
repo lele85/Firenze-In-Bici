@@ -5,17 +5,14 @@ import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.Route;
 
-import java.io.File;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -55,14 +52,14 @@ public class RouteSelectionActivity extends MapActivity {
 
 		for (Route myroute : finalroutes) {
 			HashMap<String, Object> newroute = new HashMap<String, Object>();
-			newroute.put("name", myroute.getName());
+			newroute.put("lenght", getDistanceLabelText(myroute.getLenght()));
 			newroute.put("description", myroute.getDescription());
 			newroute.put("image", myroute.getThumb(_globalState.getAppPaths()));
 			myroutes.add(newroute);
 		}
 
-		String[] from = { "name", "description", "image" };
-		int[] to = { R.id.routename, R.id.routenumber, R.id.routeimage };
+		String[] from = { "lenght", "description", "image" };
+		int[] to = { R.id.route_lenght, R.id.routenumber, R.id.routeimage };
 
 
 		SimpleAdapter adapter = new SimpleAdapter(getApplicationContext(),myroutes, R.layout.routeitem, from, to);
@@ -97,6 +94,11 @@ public class RouteSelectionActivity extends MapActivity {
 						startActivity(i);
 					}
 				});
+	}
+	
+	private String getDistanceLabelText(double distance){
+	        DecimalFormat df = new DecimalFormat("#.##");
+	        return df.format(distance) + "Km";
 	}
 
 	private void initGlobalState() {

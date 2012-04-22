@@ -1,5 +1,8 @@
 package it.smartitaly.firenzeinbici;
 
+import java.security.acl.LastOwnerException;
+import java.util.List;
+
 import com.google.android.maps.GeoPoint;
 
 public class DistanceCalculator {
@@ -27,5 +30,17 @@ public class DistanceCalculator {
 	public static double findDistance(float x1, float y1, float x2, float y2) {
         return Math.sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
     }
+	
+	public static double calculateLenght(List<GeoPoint> path){
+		double lenght = 0;
+		if (path.size() != 0){
+			GeoPoint lastPoint = path.get(0);
+			for (GeoPoint currentPoint : path) {
+				lenght += DistanceCalculator.calculateDistance(lastPoint, currentPoint);
+				lastPoint = currentPoint;
+			}
+		}
+		return lenght;
+	}
 
 }
