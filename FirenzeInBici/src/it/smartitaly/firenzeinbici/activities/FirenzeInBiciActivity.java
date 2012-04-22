@@ -11,10 +11,10 @@ import java.io.FileNotFoundException;
 import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
@@ -44,8 +44,8 @@ public class FirenzeInBiciActivity extends TabActivity {
 				RouteSelectionActivity.class);
 		Intent allNetworkIntent = new Intent().setClass(this,
 				AllNetworkMapActivity.class);
-		setupTab(new TextView(this), "Suggeriti", tabHost, routeSelectionIntent);
-		setupTab(new TextView(this), "Rete", tabHost, allNetworkIntent);
+		setupTab(new TextView(this), "Suggeriti", tabHost, routeSelectionIntent, R.layout.tab_layout);
+		setupTab(new TextView(this), "Rete", tabHost, allNetworkIntent, R.layout.async_tab_layout);
 
 		tabHost.setCurrentTab(0);
 		tabHost.getTabWidget().getChildTabViewAt(1).setEnabled(false);
@@ -57,6 +57,8 @@ public class FirenzeInBiciActivity extends TabActivity {
 				tabHost.getTabWidget().getChildTabViewAt(1).setEnabled(true);
 				GlobalState gs = (GlobalState) getApplication();
 				gs.setNetwork(network);
+				ProgressBar allnetworkProgressBar =(ProgressBar)findViewById(R.id.progressBar1);
+				allnetworkProgressBar.setVisibility(View.GONE);
 			}
 		};
 		network.setOnDataAvailableListener(listener);
@@ -64,15 +66,15 @@ public class FirenzeInBiciActivity extends TabActivity {
 	}
 
 	private void setupTab(final View view, final String title, TabHost tabHost,
-			Intent targetIntent) {
-		View tabview = createTabView(tabHost.getContext(), title);
+			Intent targetIntent, int layoutId) {
+		View tabview = createTabView(tabHost.getContext(), title,layoutId);
 		TabSpec spec = tabHost.newTabSpec(title).setIndicator(tabview)
 				.setContent(targetIntent);
 		tabHost.addTab(spec);
 	}
 
-	private static View createTabView(final Context context, final String text) {
-		View view = LayoutInflater.from(context).inflate(R.layout.tab_layout,
+	private static View createTabView(final Context context, final String text, int layoutId) {
+		View view = LayoutInflater.from(context).inflate(layoutId,
 				null);
 		TextView tv = (TextView) view.findViewById(R.id.tabsText);
 		tv.setText(text);
