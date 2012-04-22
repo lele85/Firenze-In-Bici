@@ -4,7 +4,6 @@ import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
 
 import com.google.android.maps.GeoPoint;
 

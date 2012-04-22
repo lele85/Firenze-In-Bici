@@ -1,6 +1,5 @@
 package it.smartitaly.firenzeinbici;
 
-import java.security.acl.LastOwnerException;
 import java.util.List;
 
 import com.google.android.maps.GeoPoint;

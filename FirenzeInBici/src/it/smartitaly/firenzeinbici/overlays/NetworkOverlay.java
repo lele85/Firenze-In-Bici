@@ -1,9 +1,9 @@
 package it.smartitaly.firenzeinbici.overlays;
 
+import it.smartitaly.firenzeinbici.Network;
+
 import java.util.ArrayList;
 
-import it.smartitaly.firenzeinbici.Network;
-import it.smartitaly.firenzeinbici.Route;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;

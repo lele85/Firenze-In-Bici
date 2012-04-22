@@ -27,6 +27,7 @@ public class Route {
 	private int ztl_percentage;
 	private String thumb_name;
 	private double lenght;
+	private int travel_time_minutes;
 	
 	public static List<Route> getAll(File definitionFile){
 		
@@ -83,6 +84,8 @@ public class Route {
 		this.coordinates = coordinates;
 		this.thumb_name = thumbName;
 		this.lenght = DistanceCalculator.calculateLenght(coordinates);
+		double standardSpeed = 9.0;
+		this.travel_time_minutes = getMinutes(lenght, standardSpeed);
 	}
 	
 	public String getName(){
@@ -101,12 +104,22 @@ public class Route {
 		return lenght;
 	}
 	
+	public int getTravelTimeInMinutes(){
+		return  travel_time_minutes;
+	}
+	
 	public List<GeoPoint> getCoordinates(){
 		return coordinates;
 	}
 	
 	public String getThumb(){
 		return thumb_name;
+	}
+	
+	// Speed km/h
+	// Len: km
+	private int getMinutes(double lenght, double speed){
+		return (int) Math.round((lenght/speed)*60);
 	}
 	
 	public Bitmap getThumb(AppPaths paths){

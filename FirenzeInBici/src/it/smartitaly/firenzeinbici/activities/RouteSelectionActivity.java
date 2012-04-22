@@ -52,13 +52,13 @@ public class RouteSelectionActivity extends MapActivity {
 
 		for (Route myroute : finalroutes) {
 			HashMap<String, Object> newroute = new HashMap<String, Object>();
-			newroute.put("lenght", getDistanceLabelText(myroute.getLenght()));
+			newroute.put("lenght_time", getTimeAndDistanceLabelText(myroute.getLenght(),myroute.getTravelTimeInMinutes()));
 			newroute.put("description", myroute.getDescription());
 			newroute.put("image", myroute.getThumb(_globalState.getAppPaths()));
 			myroutes.add(newroute);
 		}
 
-		String[] from = { "lenght", "description", "image" };
+		String[] from = { "lenght_time", "description", "image" };
 		int[] to = { R.id.route_lenght, R.id.routenumber, R.id.routeimage };
 
 
@@ -96,9 +96,9 @@ public class RouteSelectionActivity extends MapActivity {
 				});
 	}
 	
-	private String getDistanceLabelText(double distance){
+	private String getTimeAndDistanceLabelText(double distance, int minutes){
 	        DecimalFormat df = new DecimalFormat("#.##");
-	        return df.format(distance) + "Km";
+	        return df.format(distance) + "Km  " + minutes + "min";
 	}
 
 	private void initGlobalState() {
