@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.TabWidget;
 import android.widget.TextView;
 
 public class FirenzeInBiciActivity extends TabActivity {
@@ -40,12 +41,14 @@ public class FirenzeInBiciActivity extends TabActivity {
 				paths.getFile(AppPaths.Resources.ALL_NETWORK_FILE));
 
 		final TabHost tabHost = getTabHost();
+		tabHost.getTabWidget().setDividerDrawable(R.drawable.tab_divider);
 		Intent routeSelectionIntent = new Intent().setClass(this,
 				RouteSelectionActivity.class);
 		Intent allNetworkIntent = new Intent().setClass(this,
 				AllNetworkMapActivity.class);
 		setupTab(new TextView(this), "Suggeriti", tabHost, routeSelectionIntent, R.layout.tab_layout);
 		setupTab(new TextView(this), "Rete", tabHost, allNetworkIntent, R.layout.async_tab_layout);
+		setupTab(new TextView(this), "Segnala", tabHost, allNetworkIntent, R.layout.tab_layout);
 
 		tabHost.setCurrentTab(0);
 		tabHost.getTabWidget().getChildTabViewAt(1).setEnabled(false);

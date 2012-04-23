@@ -5,7 +5,8 @@
     android:layout_height="fill_parent"
     android:gravity="center"
     android:orientation="horizontal"
-    android:padding="10dip" >
+    android:padding="10dip"
+    android:background="@drawable/tab_background_selector">
 
     <ProgressBar
         android:id="@+id/progressBar1"
@@ -17,6 +18,7 @@
         android:id="@+id/tabsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@drawable/tab_text_selector"
         android:textSize="15dip" />
 
 </LinearLayout>

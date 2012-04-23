@@ -3,6 +3,7 @@
     android:id="@+id/tab_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/tab_background_selector"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dip" >
@@ -11,6 +12,7 @@
         android:id="@+id/tabsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@drawable/tab_text_selector"
         android:textSize="15dip" />
 
 </LinearLayout>

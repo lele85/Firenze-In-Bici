@@ -7,7 +7,7 @@
         <percentage_cyclable>100</percentage_cyclable>
 	<percentage_street>0</percentage_street>
 	<percentage_ztl>0</percentage_ztl>
-    <thumb_name>miniatura_001.png</thumb_name>
+    <thumb_name>itinerario1.png</thumb_name>
     </route>
     <route>
         <name>Itinerario 2</name>
@@ -16,7 +16,7 @@
         <percentage_cyclable>50</percentage_cyclable>
 	<percentage_street>20</percentage_street>
 	<percentage_ztl>30</percentage_ztl>
-    <thumb_name>miniatura_001.png</thumb_name>
+    <thumb_name>itinerario2.png</thumb_name>
     </route>
     <route>
         <name>Itinerario 3</name>
@@ -25,7 +25,7 @@
         <percentage_cyclable>20</percentage_cyclable>
 	<percentage_street>0</percentage_street>
 	<percentage_ztl>80</percentage_ztl>
-    <thumb_name>miniatura_001.png</thumb_name>
+    <thumb_name>itinerario3.png</thumb_name>
     </route>
     <route>
         <name>Itinerario 4</name>
@@ -34,7 +34,7 @@
         <percentage_cyclable>70</percentage_cyclable>
 	<percentage_street>0</percentage_street>
 	<percentage_ztl>0</percentage_ztl>
-    <thumb_name>miniatura_001.png</thumb_name>
+    <thumb_name>itinerario4.png</thumb_name>
     </route>
     <route>
         <name>Itinerario 5</name>
@@ -43,7 +43,7 @@
         <percentage_cyclable>75</percentage_cyclable>
 	<percentage_street>0</percentage_street>
 	<percentage_ztl>0</percentage_ztl>
-    <thumb_name>miniatura_001.png</thumb_name>
+    <thumb_name>itinerario5.png</thumb_name>
     </route>
     <route>
         <name>Itinerario 6</name>
@@ -52,6 +52,6 @@
         <percentage_cyclable>90</percentage_cyclable>
 	<percentage_street>5</percentage_street>
 	<percentage_ztl>5</percentage_ztl>
-    <thumb_name>miniatura_001.png</thumb_name>
+    <thumb_name>itinerario6.png</thumb_name>
     </route>
 </routes>
