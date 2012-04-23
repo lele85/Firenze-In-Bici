@@ -16,7 +16,7 @@
 
     <application
         android:name="it.smartitaly.firenzeinbici.GlobalState"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/launcher_icon96x96"
         android:label="@string/app_name" >
         <uses-library android:name="com.google.android.maps" />
 
