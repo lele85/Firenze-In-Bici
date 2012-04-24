@@ -13,7 +13,8 @@ public class AppPaths {
 		ROUTES_FILE,
 		ALL_NETWORK_FILE,
 		RACKS_FILE,
-		IMAGES_DIR
+		IMAGES_DIR,
+		FOUNTAINS_FILE
 	};
 	
 	private File _storageBasePath;
@@ -26,7 +27,8 @@ public class AppPaths {
 			String routesFileName,
 			String allNetworkFileName,
 			String racksFileName,
-			String imagesDirName
+			String imagesDirName,
+			String fountainsFileName
 			) throws FileNotFoundException {
 		_files = new EnumMap<Resources, File>(Resources.class);
 		_storageBasePath = new File(Environment.getExternalStorageDirectory(), storageFolderName);
@@ -34,6 +36,7 @@ public class AppPaths {
 		_files.put(Resources.RACKS_FILE, new File(_storageBasePath, racksFileName));
 		_files.put(Resources.ROUTES_FILE, new File(_storageBasePath, routesFileName));
 		_files.put(Resources.IMAGES_DIR, new File(_storageBasePath, imagesDirName));
+		_files.put(Resources.FOUNTAINS_FILE, new File(_storageBasePath, fountainsFileName));
 		for (Resources resource : _files.keySet()) {
 			verifyExists(resource);
 		}

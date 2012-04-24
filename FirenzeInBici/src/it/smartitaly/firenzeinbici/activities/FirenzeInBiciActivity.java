@@ -1,23 +1,32 @@
 package it.smartitaly.firenzeinbici.activities;
 
 import it.smartitaly.firenzeinbici.AppPaths;
+import it.smartitaly.firenzeinbici.Fountain;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.Network;
+import it.smartitaly.firenzeinbici.OverlayManager;
+import it.smartitaly.firenzeinbici.OverlayType;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
+import it.smartitaly.firenzeinbici.overlays.FountainsOverlay;
 
 import java.io.FileNotFoundException;
+import java.util.EnumMap;
+import java.util.List;
+
+import com.google.android.maps.Overlay;
 
 import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
-import android.widget.TabWidget;
 import android.widget.TextView;
 
 public class FirenzeInBiciActivity extends TabActivity {
@@ -30,7 +39,7 @@ public class FirenzeInBiciActivity extends TabActivity {
 		try {
 			paths = new AppPaths("FirenzeInBici", "routes.xml",
 					"ciclabili-percorsi_ciclabili.kml", "rastrelliere.kml",
-					"img");
+					"img", "fontanelli.kml");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -39,7 +48,18 @@ public class FirenzeInBiciActivity extends TabActivity {
 
 		final Network network = new Network(
 				paths.getFile(AppPaths.Resources.ALL_NETWORK_FILE));
-
+		
+		List<Fountain> fountains = Fountain.getAll(paths.getFile(AppPaths.Resources.FOUNTAINS_FILE));
+		gs.setFountains(fountains);
+		Drawable marker = getResources().getDrawable(R.drawable.markerfontanella);
+		FountainsOverlay fountainsOverlay = new FountainsOverlay(marker, fountains, getApplicationContext());
+		EnumMap<OverlayType, Overlay> globalOverlays = new EnumMap<OverlayType, Overlay>(OverlayType.class);
+		globalOverlays.put(OverlayType.FONTANELLE, fountainsOverlay);
+		EnumMap<OverlayType, Boolean> overlayStatus = new EnumMap<OverlayType, Boolean>(OverlayType.class);
+		overlayStatus.put(OverlayType.FONTANELLE, new Boolean(true));
+		OverlayManager overlayManager = new OverlayManager(globalOverlays, overlayStatus);
+		gs.setOverlayManager(overlayManager);
+		
 		final TabHost tabHost = getTabHost();
 		tabHost.getTabWidget().setDividerDrawable(R.drawable.tab_divider);
 		Intent routeSelectionIntent = new Intent().setClass(this,

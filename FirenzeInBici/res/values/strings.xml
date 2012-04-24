@@ -4,6 +4,7 @@
     <string name="hello">Hello World, Apps4ItalyActivity!</string>
     <string name="app_name">FirenzeInBici</string>
     <string name="textinfo">Info</string>
+    <string name="pdiinfo">PDI</string>
     <string name="routedescription">No Image Available</string>
 
 </resources>

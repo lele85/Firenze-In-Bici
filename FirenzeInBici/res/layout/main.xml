@@ -7,7 +7,7 @@
             android:id="@+id/map"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:apiKey="0EaaTL8zc1jPAZ2gP77w0GF8EVCOCVIpJllJYVw"
+            android:apiKey="0MikXNd6eKwC0OffYtmZ0DTl7-VQOKGKGatSdew"
             android:clickable="true"/>
         
         <Button android:id="@+id/btninfo"
@@ -15,6 +15,12 @@
         	android:layout_height="wrap_content"
         	android:text="@+string/textinfo"
         	android:layout_alignParentRight="true"/>
+        
+        <Button android:id="@+id/btnpdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/pdiinfo"
+            android:layout_toLeftOf="@+id/btninfo"/>
         
         <WebView android:id="@+id/webinfo"
             android:layout_width="wrap_content"
