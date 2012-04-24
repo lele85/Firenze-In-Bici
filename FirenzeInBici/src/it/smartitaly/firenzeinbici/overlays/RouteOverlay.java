@@ -21,21 +21,22 @@ public class RouteOverlay extends Overlay {
 		_route = route;
 		this.map = map;
 	}
-
+	
+	private static Point _point = new Point();
+	
 	@Override
 	public void draw(Canvas canvas, MapView mv, boolean shadow) {
 		Paint paint = new Paint();
 		paint.setColor(Color.RED);
 		paint.setStyle(Paint.Style.STROKE);
 		paint.setAntiAlias(true);
-		paint.setStrokeWidth(3);
+		paint.setStrokeWidth(5);
 		int x1 = -1, y1 = -1, x2 = -1, y2 = -1;
 		for (GeoPoint geopoint : _route.getCoordinates()) {
-			Point point = new Point();
-			mv.getProjection().toPixels(geopoint, point);
+			mv.getProjection().toPixels(geopoint, _point);
 
-			x2 = point.x;
-			y2 = point.y;
+			x2 = _point.x;
+			y2 = _point.y;
 
 			if ((x1 != -1) && (y1 != -1)) {
 				canvas.drawLine(x1, y1, x2, y2, paint);

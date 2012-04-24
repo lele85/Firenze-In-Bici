@@ -30,6 +30,7 @@ public class OverlayManager {
 	public void applyActiveOverlays(MapView mapview){
 		List<Overlay> overlays = mapview.getOverlays();
 		overlays.removeAll(getNonActiveOverlays());
+		overlays.removeAll(getActiveOverlays());
 		overlays.addAll(getActiveOverlays());
 		mapview.invalidate();
 	}

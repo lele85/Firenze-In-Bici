@@ -43,22 +43,23 @@ public class FirenzeInBiciActivity extends TabActivity {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		GlobalState gs = (GlobalState) getApplication();
-		gs.setAppPaths(paths);
+		
 
 		final Network network = new Network(
 				paths.getFile(AppPaths.Resources.ALL_NETWORK_FILE));
 		
 		List<Fountain> fountains = Fountain.getAll(paths.getFile(AppPaths.Resources.FOUNTAINS_FILE));
-		gs.setFountains(fountains);
-		Drawable marker = getResources().getDrawable(R.drawable.markerfontanella);
-		FountainsOverlay fountainsOverlay = new FountainsOverlay(marker, fountains, getApplicationContext());
-		EnumMap<OverlayType, Overlay> globalOverlays = new EnumMap<OverlayType, Overlay>(OverlayType.class);
-		globalOverlays.put(OverlayType.FONTANELLE, fountainsOverlay);
-		EnumMap<OverlayType, Boolean> overlayStatus = new EnumMap<OverlayType, Boolean>(OverlayType.class);
-		overlayStatus.put(OverlayType.FONTANELLE, new Boolean(true));
-		OverlayManager overlayManager = new OverlayManager(globalOverlays, overlayStatus);
-		gs.setOverlayManager(overlayManager);
+		
+		
+		EnumMap<OverlayType, Boolean> globalOverlayStatus = new EnumMap<OverlayType, Boolean>(OverlayType.class);
+		globalOverlayStatus.put(OverlayType.FONTANELLE, new Boolean(true));
+		
+		
+		// Set global state (Quick and dirty hack)
+		GlobalState globalState = (GlobalState) getApplication();
+		globalState.setAppPaths(paths);
+		globalState.setFountains(fountains);
+		globalState.setOverlayStatus(globalOverlayStatus);
 		
 		final TabHost tabHost = getTabHost();
 		tabHost.getTabWidget().setDividerDrawable(R.drawable.tab_divider);
