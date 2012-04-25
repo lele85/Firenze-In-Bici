@@ -83,7 +83,7 @@ public class Route {
 		this.center = center;
 		this.coordinates = coordinates;
 		this.thumb_name = thumbName;
-		this.lenght = DistanceCalculator.calculateLenght(coordinates);
+		this.lenght = GeoHelper.calculateLenght(coordinates);
 		double standardSpeed = 9.0;
 		this.travel_time_minutes = getMinutes(lenght, standardSpeed);
 	}
