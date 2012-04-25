@@ -2,4 +2,5 @@
 <resources>
         <color name="firenzeRed">#E40307</color>
         <color name="firenzeIvory">#F4F5F0</color>
+        <color name="firenzeTranslucentBlack">#80000000</color>
 </resources>

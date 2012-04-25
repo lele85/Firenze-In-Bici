@@ -24,6 +24,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapView;
@@ -33,8 +34,7 @@ public class MyRouteMapActivity extends MapActivity {
 
 	private Route _route;
 	MapView mapview;
-	Button btninfo, btnpdi;
-	WebView info;
+	Button infoButton, pointsOfInterestButton;
 	List<Fountain> fountains;
 	List<BikeRack> racks;
 
@@ -84,8 +84,8 @@ public class MyRouteMapActivity extends MapActivity {
 		overlayTypeChekboxOrder.put(2, OverlayType.NEGOZI);
 		overlayTypeChekboxOrder.put(3, OverlayType.AFFITTO);
 		
-		btnpdi = (Button) findViewById(R.id.btnpdi);
-		btnpdi.setOnClickListener(new OnClickListener() {
+		pointsOfInterestButton = (Button) findViewById(R.id.btnpdi);
+		pointsOfInterestButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 
@@ -144,29 +144,27 @@ public class MyRouteMapActivity extends MapActivity {
 			}
 
 		});
+		
+		
 
-		btninfo = (Button) findViewById(R.id.btninfo);
-		btninfo.setOnClickListener(new OnClickListener() {
+		infoButton = (Button) findViewById(R.id.btninfo);
+		infoButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
-				if (info.getVisibility() == View.GONE) {
-					info.setVisibility(View.VISIBLE);
-				} else {
-					info.setVisibility(View.GONE);
-				}
+
 			}
 
 		});
 
 		// GlobalState gs = (GlobalState)getApplication();
 		_route = gs.getActiveRoute();
-
-		info = (WebView) findViewById(R.id.webinfo);
-		info.loadData(_route.getDescription(), "text/html", null);
-
 		RouteOverlay myOverlay = new RouteOverlay(_route, mapview);
 		mapview.getOverlays().add(myOverlay);
+		
+		TextView topBarTextInfo = (TextView) findViewById(R.id.top_bar_description);
+		topBarTextInfo.setText(_route.getDescription());
+		
 		myOverlay.centerMap();
 	}
 

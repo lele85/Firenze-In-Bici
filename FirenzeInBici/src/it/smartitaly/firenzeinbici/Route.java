@@ -29,6 +29,9 @@ public class Route {
 	private double lenght;
 	private int travel_time_minutes;
 	
+	private double CO2_GRAMS_PER_KM = 127.97;
+	private double STANDARD_BIKE_SPEED_KM_PER_HOUR = 9.0;
+	
 	public static List<Route> getAll(File definitionFile){
 		
 		NodeList nList;
@@ -84,8 +87,7 @@ public class Route {
 		this.coordinates = coordinates;
 		this.thumb_name = thumbName;
 		this.lenght = GeoHelper.calculateLenght(coordinates);
-		double standardSpeed = 9.0;
-		this.travel_time_minutes = getMinutes(lenght, standardSpeed);
+		this.travel_time_minutes = getMinutes(lenght, STANDARD_BIKE_SPEED_KM_PER_HOUR);
 	}
 	
 	public String getName(){
@@ -102,6 +104,14 @@ public class Route {
 	
 	public double getLenght(){
 		return lenght;
+	}
+	
+	public double getCo2SavedInGrams(){
+		return lenght*CO2_GRAMS_PER_KM;
+	}
+	
+	public double getCo2SavedInKiloGrams(){
+		return lenght*CO2_GRAMS_PER_KM/1000;
 	}
 	
 	public int getTravelTimeInMinutes(){

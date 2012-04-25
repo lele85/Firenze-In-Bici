@@ -14,7 +14,6 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.text.Html;
-import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.google.android.maps.ItemizedOverlay;

@@ -1,32 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0EaaTL8zc1jPAZ2gP77w0GF8EVCOCVIpJllJYVw"
+        android:clickable="true" />
 
-        <com.google.android.maps.MapView
-            android:id="@+id/map"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:apiKey="0EaaTL8zc1jPAZ2gP77w0GF8EVCOCVIpJllJYVw"
-            android:clickable="true"/>
-        
-        <Button android:id="@+id/btninfo"
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:text="@+string/textinfo"
-        	android:layout_alignParentRight="true"/>
-        
-        <Button android:id="@+id/btnpdi"
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/firenzeRed" >
+
+        <TextView
+            android:id="@+id/top_bar_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@+string/pdiinfo"
-            android:layout_toLeftOf="@+id/btninfo"/>
-        
-        <WebView android:id="@+id/webinfo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/btnpdi"
+            android:maxLines="3"
+            android:text="Lorem ipsum bla bla bla bla su due linee"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/firenzeIvory" />
+
+        <TextView
+            android:id="@+id/TextView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/btninfo"
-            android:layout_alignRight="@+id/btninfo"
-            android:visibility="gone"/>
-        
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/top_bar_description"
+            android:layout_margin="5dp"
+            android:maxLines="1"
+            android:text="Percorso 1 100% ciclabile"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/firenzeIvory" />
+
+        <Button
+            android:id="@+id/btninfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/icon_route_info" />
+
+        <Button
+            android:id="@+id/btnpdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btninfo"
+            android:background="@drawable/icon_points_of_interest" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <TextView
+            android:id="@+id/box_distanza"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:maxLines="1"
+            android:text="Distanza"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/firenzeIvory"
+            android:background="@drawable/rounded_edges"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/box_gasoline"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:text="Benzina"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/firenzeIvory"
+            android:background="@drawable/rounded_edges"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/box_co2"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/box_gasoline"
+            android:layout_toRightOf="@+id/box_distanza"
+            android:maxLines="1"
+            android:text="Co2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/firenzeIvory" 
+            android:background="@drawable/rounded_edges"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
