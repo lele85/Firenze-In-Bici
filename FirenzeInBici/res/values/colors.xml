@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
         <color name="firenzeRed">#E40307</color>
-        <color name="firenzeIvory">#F4F5F0</color>
+        <color name="firenzeIvory">#E9EBE0</color>
         <color name="firenzeTranslucentBlack">#80000000</color>
+        <color name="firenzeDarkGray">#4D4D4D</color>
+        <color name="firenzeLightGray">#575857</color>
 </resources>

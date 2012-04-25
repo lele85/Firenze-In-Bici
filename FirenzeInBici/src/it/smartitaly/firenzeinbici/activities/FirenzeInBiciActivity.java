@@ -57,8 +57,8 @@ public class FirenzeInBiciActivity extends TabActivity {
 		List<BikeRack> racks = BikeRack.getAll(paths.getFile(AppPaths.Resources.RACKS_FILE));
 		
 		EnumMap<OverlayType, Boolean> globalOverlayStatus = new EnumMap<OverlayType, Boolean>(OverlayType.class);
-		globalOverlayStatus.put(OverlayType.FONTANELLE, new Boolean(true));
-		globalOverlayStatus.put(OverlayType.RASTRELLIERE, new Boolean(true));
+		globalOverlayStatus.put(OverlayType.FONTANELLE, new Boolean(false));
+		globalOverlayStatus.put(OverlayType.RASTRELLIERE, new Boolean(false));
 		
 		
 		// Set global state (Quick and dirty hack)

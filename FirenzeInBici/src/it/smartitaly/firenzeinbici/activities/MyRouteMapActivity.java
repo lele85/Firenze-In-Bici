@@ -11,6 +11,7 @@ import it.smartitaly.firenzeinbici.overlays.BikeRacksOverlay;
 import it.smartitaly.firenzeinbici.overlays.FountainsOverlay;
 import it.smartitaly.firenzeinbici.overlays.RouteOverlay;
 
+import java.text.DecimalFormat;
 import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
@@ -88,7 +89,7 @@ public class MyRouteMapActivity extends MapActivity {
 		pointsOfInterestButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-
+				pointsOfInterestButton.setSelected(true);
 				CharSequence[] items =
 				{
 					overlayTypeChekboxLabels.get(OverlayType.RASTRELLIERE),
@@ -138,6 +139,7 @@ public class MyRouteMapActivity extends MapActivity {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						alert.cancel();
+						pointsOfInterestButton.setSelected(false);
 					}
 				});
 				alert.show();
@@ -161,11 +163,30 @@ public class MyRouteMapActivity extends MapActivity {
 		_route = gs.getActiveRoute();
 		RouteOverlay myOverlay = new RouteOverlay(_route, mapview);
 		mapview.getOverlays().add(myOverlay);
+		populateUi();
 		
-		TextView topBarTextInfo = (TextView) findViewById(R.id.top_bar_description);
-		topBarTextInfo.setText(_route.getDescription());
+		
 		
 		myOverlay.centerMap();
+	}
+	
+	private void populateUi(){
+		populateTextView(_route.getDescription(), R.id.top_bar_description);
+		populateTextView(stringify(_route.getCo2SavedInKiloGrams(), "#.# Kg"), R.id.co2_kg_label);
+		populateTextView(stringify(_route.getCo2SavedInGrams(), "#.### g"), R.id.co2_g_label);
+		populateTextView(Integer.toString(_route.getTravelTimeInMinutes()) + " min", R.id.travel_time_min_label);
+		populateTextView(stringify(_route.getLenght(),"#.# Km"), R.id.distance_km_label);
+		populateTextView(stringify(_route.getGasolineSavedInEuro(), "#.## €"), R.id.benzina_euro_label);
+		populateTextView(stringify(_route.getGasolineSavedInLitre(),"#.# litri"), R.id.benzina_litri_label);
+	}
+	
+	private String stringify(double number, String format){
+		return (new DecimalFormat(format).format(number));
+	}
+	
+	private void populateTextView(String text, int viewId){
+		TextView topBarTextInfo = (TextView) findViewById(viewId);
+		topBarTextInfo.setText(text);
 	}
 
 	@Override

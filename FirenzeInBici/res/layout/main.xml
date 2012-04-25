@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
-
+
     <com.google.android.maps.MapView
         android:id="@+id/map"
         android:layout_width="fill_parent"
@@ -18,7 +18,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:background="@color/firenzeRed" >
-
+
         <TextView
             android:id="@+id/top_bar_description"
             android:layout_width="wrap_content"
@@ -26,13 +26,14 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/TextView01"
-            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
             android:layout_toLeftOf="@+id/btnpdi"
-            android:maxLines="3"
+            android:maxLines="2"
             android:text="Lorem ipsum bla bla bla bla su due linee"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/firenzeIvory" />
-
+            android:textColor="@color/firenzeIvory"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/TextView01"
             android:layout_width="wrap_content"
@@ -60,53 +61,123 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_toLeftOf="@+id/btninfo"
-            android:background="@drawable/icon_points_of_interest" />
+            android:background="@drawable/point_of_interest_selector" />
     </RelativeLayout>
-
+
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/relativeLayout1" >
 
-        <TextView
-            android:id="@+id/box_distanza"
-            android:layout_width="120dp"
-            android:layout_height="80dp"
-            android:maxLines="1"
-            android:text="Distanza"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/firenzeIvory"
-            android:background="@drawable/rounded_edges"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:id="@+id/box_gasoline"
-            android:layout_width="120dp"
-            android:layout_height="80dp"
-            android:layout_alignParentRight="true"
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:maxLines="1"
-            android:text="Benzina"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/firenzeIvory"
-            android:background="@drawable/rounded_edges"
-            android:layout_margin="5dp"/>
-
-        <TextView
-            android:id="@+id/box_co2"
-            android:layout_width="120dp"
-            android:layout_height="80dp"
-            android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/box_gasoline"
-            android:layout_toRightOf="@+id/box_distanza"
-            android:maxLines="1"
-            android:text="Co2"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/firenzeIvory" 
-            android:background="@drawable/rounded_edges"
-            android:layout_margin="5dp"/>
+            android:layout_margin="0dp"
+            android:orientation="horizontal" >
 
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="0.33"
+                 android:layout_margin="3dp"
+                android:background="@drawable/rounded_edges"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Distanza"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/firenzeIvory" />
+                <TextView
+                    android:id="@+id/distance_km_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    android:text="3,7 km"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/firenzeIvory" />
+                <TextView
+                    android:id="@+id/travel_time_min_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="24 min"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/firenzeIvory" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="0.33"
+                android:layout_margin="3dp"
+                android:background="@drawable/rounded_edges"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Risparmio CO²"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/firenzeIvory" />
+                <TextView
+                    android:id="@+id/co2_kg_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    android:text="0,5 kg"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/firenzeIvory" />
+                <TextView
+                    android:id="@+id/co2_g_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="473,489 g"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/firenzeIvory" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="0.33"
+                android:layout_margin="3dp"
+                android:background="@drawable/rounded_edges"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Risparmio Benzina"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/firenzeIvory" />
+                <TextView
+                    android:id="@+id/benzina_euro_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    android:text="0,38 €"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/firenzeIvory" />
+                <TextView
+                    android:id="@+id/benzina_litri_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="0,2 litri"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/firenzeIvory" />
+            </LinearLayout>
+        </LinearLayout>
     </RelativeLayout>
 
 </RelativeLayout>

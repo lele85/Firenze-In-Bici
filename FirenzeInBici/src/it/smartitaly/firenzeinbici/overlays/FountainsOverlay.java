@@ -47,7 +47,7 @@ public class FountainsOverlay extends ItemizedOverlay<OverlayItem> {
 	@Override
 	public void draw(Canvas canvas, MapView mapView, boolean shadow) {
 		if (!shadow){
-		
+		/*
 		mapView.getDrawingRect(_currentMapBoundsRect);
 		for (Fountain fountain : _fountains) {
 			mapView.getProjection().toPixels(fountain.getLocation(),
@@ -56,7 +56,7 @@ public class FountainsOverlay extends ItemizedOverlay<OverlayItem> {
 					_currentMapBoundsRect)) {
 				drawSpot(canvas, _itemToDrawPointInScreenCoordinates);
 			}
-		}
+		}*/
 		super.draw(canvas, mapView, shadow);
 		}
 	}

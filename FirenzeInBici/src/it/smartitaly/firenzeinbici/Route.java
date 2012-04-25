@@ -31,6 +31,9 @@ public class Route {
 	
 	private double CO2_GRAMS_PER_KM = 127.97;
 	private double STANDARD_BIKE_SPEED_KM_PER_HOUR = 9.0;
+	private double STANDARD_AUTO_KM_PER_LITRE = 18.0;
+	private double STANDARD_GASOLINE_EURO_PER_LITRE = 1.9;
+	
 	
 	public static List<Route> getAll(File definitionFile){
 		
@@ -64,7 +67,8 @@ public class Route {
 						description,
 						center,
 						geopoints,
-						thumb_name);
+						thumb_name,
+						percentage_cyclable);
 				routes.add(route);
 			}
 			
@@ -80,7 +84,8 @@ public class Route {
 			String description,
 			GeoPoint center,
 			List<GeoPoint> coordinates,
-			String thumbName){
+			String thumbName,
+			int percentage_cyclable){
 		this.name = name;
 		this.description = description;
 		this.center = center;
@@ -88,6 +93,7 @@ public class Route {
 		this.thumb_name = thumbName;
 		this.lenght = GeoHelper.calculateLenght(coordinates);
 		this.travel_time_minutes = getMinutes(lenght, STANDARD_BIKE_SPEED_KM_PER_HOUR);
+		this.cyclable_percentage = percentage_cyclable;
 	}
 	
 	public String getName(){
@@ -102,6 +108,10 @@ public class Route {
 		return center;
 	}
 	
+	public int getCyclabilePercentage(){
+		return cyclable_percentage;
+	}
+	
 	public double getLenght(){
 		return lenght;
 	}
@@ -112,6 +122,14 @@ public class Route {
 	
 	public double getCo2SavedInKiloGrams(){
 		return lenght*CO2_GRAMS_PER_KM/1000;
+	}
+	
+	public double getGasolineSavedInLitre(){
+		return lenght/STANDARD_AUTO_KM_PER_LITRE;
+	}
+	
+	public double getGasolineSavedInEuro(){
+		return getGasolineSavedInLitre()*STANDARD_GASOLINE_EURO_PER_LITRE;
 	}
 	
 	public int getTravelTimeInMinutes(){

@@ -52,14 +52,15 @@ public class RouteSelectionActivity extends MapActivity {
 
 		for (Route myroute : finalroutes) {
 			HashMap<String, Object> newroute = new HashMap<String, Object>();
-			newroute.put("lenght_time", getTimeAndDistanceLabelText(myroute.getLenght(),myroute.getTravelTimeInMinutes()));
-			newroute.put("description", myroute.getDescription());
-			newroute.put("image", myroute.getThumb(_globalState.getAppPaths()));
+			newroute.put("route_name_and_composition", myroute.getName() + " - Ciclabile al " +myroute.getCyclabilePercentage() + "%" );
+			newroute.put("route_distance_and_time", getTimeAndDistanceLabelText(myroute.getLenght(),myroute.getTravelTimeInMinutes()));
+			newroute.put("route_description", myroute.getDescription());
+			newroute.put("routeimage", myroute.getThumb(_globalState.getAppPaths()));
 			myroutes.add(newroute);
 		}
 
-		String[] from = { "lenght_time", "description", "image" };
-		int[] to = { R.id.route_lenght, R.id.routenumber, R.id.routeimage };
+		String[] from = { "route_name_and_composition", "route_description", "routeimage", "route_distance_and_time" };
+		int[] to = {R.id.route_name_and_composition, R.id.route_description, R.id.routeimage, R.id.route_distance_and_time };
 
 
 		SimpleAdapter adapter = new SimpleAdapter(getApplicationContext(),myroutes, R.layout.routeitem, from, to);
@@ -98,7 +99,7 @@ public class RouteSelectionActivity extends MapActivity {
 	
 	private String getTimeAndDistanceLabelText(double distance, int minutes){
 	        DecimalFormat df = new DecimalFormat("#.##");
-	        return df.format(distance) + "Km  " + minutes + "min";
+	        return df.format(distance) + "Km  " + minutes + " min";
 	}
 
 	private void initGlobalState() {

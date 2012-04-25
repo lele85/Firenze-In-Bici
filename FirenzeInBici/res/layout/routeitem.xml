@@ -1,26 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/routeimage"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:contentDescription="@+string/routedescription" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/routeimage"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="5dip">
+        android:layout_marginLeft="10dip"
+        android:orientation="vertical"
+        >
 
-        <ImageView android:id="@+id/routeimage"
-                android:layout_width="100dip"
-                android:layout_height="100dip"
-                android:contentDescription="@+string/routedescription"/>
-        
-        <TextView android:id="@+id/route_lenght"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dip"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_toRightOf="@id/routeimage"/>
-        
-        <TextView android:id="@+id/routenumber"
-            	android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dip"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_toRightOf="@id/routeimage"
-                android:layout_below="@+id/route_lenght"/>
+        <TextView
+            android:id="@+id/route_name_and_composition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/firenzeDarkGray"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/route_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/route_distance_and_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/firenzeLightGray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
 </RelativeLayout>

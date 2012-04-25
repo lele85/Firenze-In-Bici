@@ -49,7 +49,7 @@ public class BikeRacksOverlay extends ItemizedOverlay<OverlayItem> {
 	@Override
 	public void draw(Canvas canvas, MapView mapView, boolean shadow) {
 		if (!shadow){
-		
+		/*
 		mapView.getDrawingRect(_currentMapBoundsRect);
 		for (BikeRack rack : _racks) {
 			mapView.getProjection().toPixels(rack.getLocation(),
@@ -58,7 +58,7 @@ public class BikeRacksOverlay extends ItemizedOverlay<OverlayItem> {
 					_currentMapBoundsRect)) {
 				drawSpot(canvas, _itemToDrawPointInScreenCoordinates);
 			}
-		}
+		}*/
 		super.draw(canvas, mapView, shadow);
 		}
 	}
