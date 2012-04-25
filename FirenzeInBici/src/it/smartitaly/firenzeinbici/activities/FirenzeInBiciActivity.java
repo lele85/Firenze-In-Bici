@@ -1,6 +1,7 @@
 package it.smartitaly.firenzeinbici.activities;
 
 import it.smartitaly.firenzeinbici.AppPaths;
+import it.smartitaly.firenzeinbici.BikeRack;
 import it.smartitaly.firenzeinbici.Fountain;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.Network;
@@ -37,9 +38,13 @@ public class FirenzeInBiciActivity extends TabActivity {
 
 		AppPaths paths = null;
 		try {
-			paths = new AppPaths("FirenzeInBici", "routes.xml",
-					"ciclabili-percorsi_ciclabili.kml", "rastrelliere.kml",
-					"img", "fontanelli.kml");
+			paths = new AppPaths(
+					"FirenzeInBici",
+					"routes.xml",
+					"ciclabili-percorsi_ciclabili.kml",
+					"rastrelliere.kml",
+					"img",
+					"fontanelli.kml");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -49,16 +54,18 @@ public class FirenzeInBiciActivity extends TabActivity {
 				paths.getFile(AppPaths.Resources.ALL_NETWORK_FILE));
 		
 		List<Fountain> fountains = Fountain.getAll(paths.getFile(AppPaths.Resources.FOUNTAINS_FILE));
-		
+		List<BikeRack> racks = BikeRack.getAll(paths.getFile(AppPaths.Resources.RACKS_FILE));
 		
 		EnumMap<OverlayType, Boolean> globalOverlayStatus = new EnumMap<OverlayType, Boolean>(OverlayType.class);
 		globalOverlayStatus.put(OverlayType.FONTANELLE, new Boolean(true));
+		globalOverlayStatus.put(OverlayType.RASTRELLIERE, new Boolean(true));
 		
 		
 		// Set global state (Quick and dirty hack)
 		GlobalState globalState = (GlobalState) getApplication();
 		globalState.setAppPaths(paths);
 		globalState.setFountains(fountains);
+		globalState.setBikeRacks(racks);
 		globalState.setOverlayStatus(globalOverlayStatus);
 		
 		final TabHost tabHost = getTabHost();

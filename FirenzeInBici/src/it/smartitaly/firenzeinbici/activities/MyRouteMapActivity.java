@@ -1,13 +1,15 @@
 package it.smartitaly.firenzeinbici.activities;
 
+import it.smartitaly.firenzeinbici.BikeRack;
 import it.smartitaly.firenzeinbici.Fountain;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.OverlayManager;
 import it.smartitaly.firenzeinbici.OverlayType;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.Route;
-import it.smartitaly.firenzeinbici.overlays.RouteOverlay;
+import it.smartitaly.firenzeinbici.overlays.BikeRacksOverlay;
 import it.smartitaly.firenzeinbici.overlays.FountainsOverlay;
+import it.smartitaly.firenzeinbici.overlays.RouteOverlay;
 
 import java.util.EnumMap;
 import java.util.HashMap;
@@ -18,7 +20,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebView;
@@ -35,6 +36,7 @@ public class MyRouteMapActivity extends MapActivity {
 	Button btninfo, btnpdi;
 	WebView info;
 	List<Fountain> fountains;
+	List<BikeRack> racks;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -47,14 +49,22 @@ public class MyRouteMapActivity extends MapActivity {
 
 		GlobalState gs = (GlobalState) getApplication();
 		fountains = gs.getFountains();
+		racks = gs.getBikeRacks();
 
-		Drawable marker = getResources().getDrawable(
+		Drawable fountainMarker = getResources().getDrawable(
 				R.drawable.markerfontanella);
-		FountainsOverlay fountainsOverlay = new FountainsOverlay(marker,
+		Drawable bikeRackMarker = getResources().getDrawable(
+				R.drawable.markerrastrelliera);
+		
+		FountainsOverlay fountainsOverlay = new FountainsOverlay(fountainMarker,
 				fountains, this);
+		BikeRacksOverlay bikeRacksOverlay = new BikeRacksOverlay(bikeRackMarker, racks, this);
+		
 		EnumMap<OverlayType, Overlay> overlays = new EnumMap<OverlayType, Overlay>(
 				OverlayType.class);
 		overlays.put(OverlayType.FONTANELLE, fountainsOverlay);
+		overlays.put(OverlayType.RASTRELLIERE, bikeRacksOverlay);
+		
 		final EnumMap<OverlayType, Boolean> overlaysStatus = gs
 				.getOverlayStatus();
 
@@ -89,7 +99,7 @@ public class MyRouteMapActivity extends MapActivity {
 				
 				boolean[] initialitemschecked =
 				{
-					false,
+					overlaysStatus.get(OverlayType.RASTRELLIERE),
 					overlaysStatus.get(OverlayType.FONTANELLE),
 					false,
 					false

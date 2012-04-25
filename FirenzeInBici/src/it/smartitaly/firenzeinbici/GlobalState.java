@@ -11,6 +11,7 @@ public class GlobalState extends Application {
 	private Network _network;
 	private Route _activeroute;
 	private List<Fountain> _fountains;
+	private List<BikeRack> _bikeRacks;
 	private EnumMap<OverlayType, Boolean> _overlayStatus;
 	
 	public void setNetwork(Network network){
@@ -50,6 +51,14 @@ public class GlobalState extends Application {
 	
 	public List<Fountain> getFountains(){
 		return _fountains;
+	}
+	
+	public void setBikeRacks(List<BikeRack> racks){
+		_bikeRacks = racks;
+	}
+	
+	public List<BikeRack> getBikeRacks(){
+		return _bikeRacks;
 	}
 	
 }
