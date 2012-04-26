@@ -1,6 +1,5 @@
 package it.smartitaly.firenzeinbici.activities;
 
-import it.smartitaly.firenzeinbici.AppPaths;
 import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.R;
 import it.smartitaly.firenzeinbici.Route;
@@ -11,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -53,7 +52,7 @@ public class RouteSelectionActivity extends MapActivity {
 			newroute.put("route_name_and_composition", myroute.getName() + " - Ciclabile al " +myroute.getCyclabilePercentage() + "%" );
 			newroute.put("route_distance_and_time", getTimeAndDistanceLabelText(myroute.getLenght(),myroute.getTravelTimeInMinutes()));
 			newroute.put("route_description", myroute.getDescription());
-			newroute.put("routeimage", myroute.getThumb(_globalState.getAppPaths()));
+			newroute.put("routeimage", myroute.getThumb(this));
 			myroutes.add(newroute);
 		}
 
@@ -66,10 +65,10 @@ public class RouteSelectionActivity extends MapActivity {
 			@Override
 			public boolean setViewValue(View view, Object data,
 					String textRepresentation) {
-				if (data instanceof Bitmap) {
-					Bitmap thumb = (Bitmap) data;
+				if (data instanceof Drawable) {
+					Drawable thumb = (Drawable) data;
 					ImageView imageView = (ImageView) view;
-					imageView.setImageBitmap(thumb);
+					imageView.setImageDrawable(thumb);
 					return true;
 				}
 				return false;

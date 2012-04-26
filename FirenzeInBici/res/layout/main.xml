@@ -7,7 +7,7 @@
         android:id="@+id/map"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:apiKey="0MikXNd6eKwC0OffYtmZ0DTl7-VQOKGKGatSdew"
+        android:apiKey="0EaaTL8zc1jN9AdD-TNjIeEVgk-4ZvyQ0wNq-Hg"
         android:clickable="true" />
 
     <RelativeLayout

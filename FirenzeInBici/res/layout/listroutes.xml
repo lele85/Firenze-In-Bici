@@ -9,6 +9,7 @@
     <ListView android:id="@+id/listroutes"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:cacheColorHint="@color/firenzeIvory"/>
+        android:cacheColorHint="@color/firenzeIvory"
+        />
     
 </LinearLayout>

@@ -13,8 +13,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 
 import com.google.android.maps.GeoPoint;
 
@@ -151,11 +154,14 @@ public class Route {
 		return (int) Math.round((lenght/speed)*60);
 	}
 	
-	public Bitmap getThumb(AppPaths paths){
-        File thumb = paths.getImageFile(thumb_name);
-        Bitmap bitmap = BitmapFactory.decodeFile(thumb.getAbsolutePath());
-        return bitmap;
+	public Drawable getThumb(Context context){
+		Resources res = context.getResources();
+		int drawableId = context.getResources().getIdentifier(thumb_name, "drawable", "it.smartitaly.firenzeinbici");
+		Drawable drawable = res.getDrawable(drawableId);
+        return drawable;
 	}
+	
+	
 	
 	private static String getTagValue(String sTag, Element eElement) {
 		NodeList nlList = eElement.getElementsByTagName(sTag).item(0).getChildNodes();

@@ -7,7 +7,6 @@ import android.app.Application;
 
 public class GlobalState extends Application {
 	
-	private AppPaths _paths;
 	private Network _network;
 	private Route _activeroute;
 	private List<Fountain> _fountains;
@@ -35,14 +34,6 @@ public class GlobalState extends Application {
 	
 	public Route getActiveRoute(){
 		return _activeroute;
-	}
-	
-	public void setAppPaths(AppPaths paths){
-		_paths = paths;
-	}
-	
-	public AppPaths getAppPaths(){
-		return _paths;
 	}
 	
 	public void setFountains(List<Fountain> fountains){

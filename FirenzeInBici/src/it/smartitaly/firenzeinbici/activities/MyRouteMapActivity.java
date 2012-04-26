@@ -75,14 +75,12 @@ public class MyRouteMapActivity extends MapActivity {
 		final EnumMap<OverlayType, String> overlayTypeChekboxLabels = new EnumMap<OverlayType, String>(OverlayType.class);
 		overlayTypeChekboxLabels.put(OverlayType.FONTANELLE, "Fontanelle");
 		overlayTypeChekboxLabels.put(OverlayType.RASTRELLIERE, "Rastrelliere");
-		overlayTypeChekboxLabels.put(OverlayType.NEGOZI, "Negozi di bici");
-		overlayTypeChekboxLabels.put(OverlayType.AFFITTO, "Affitto Bici");
+
 		
 		final Map<Integer, OverlayType> overlayTypeChekboxOrder = new HashMap<Integer, OverlayType>();
 		overlayTypeChekboxOrder.put(0, OverlayType.RASTRELLIERE);
 		overlayTypeChekboxOrder.put(1, OverlayType.FONTANELLE);
-		overlayTypeChekboxOrder.put(2, OverlayType.NEGOZI);
-		overlayTypeChekboxOrder.put(3, OverlayType.AFFITTO);
+
 		
 		pointsOfInterestButton = (Button) findViewById(R.id.btnpdi);
 		pointsOfInterestButton.setOnClickListener(new OnClickListener() {
@@ -93,16 +91,12 @@ public class MyRouteMapActivity extends MapActivity {
 				{
 					overlayTypeChekboxLabels.get(OverlayType.RASTRELLIERE),
 					overlayTypeChekboxLabels.get(OverlayType.FONTANELLE),
-					overlayTypeChekboxLabels.get(OverlayType.NEGOZI),
-					overlayTypeChekboxLabels.get(OverlayType.AFFITTO)
 				};
 				
 				boolean[] initialitemschecked =
 				{
 					overlaysStatus.get(OverlayType.RASTRELLIERE),
 					overlaysStatus.get(OverlayType.FONTANELLE),
-					false,
-					false
 				};
 
 				AlertDialog.Builder builder = new AlertDialog.Builder(

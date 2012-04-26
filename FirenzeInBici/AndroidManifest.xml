@@ -22,8 +22,9 @@
 
         <activity
             android:name=".activities.FirenzeInBiciActivity"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,17 +32,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.CreateTabActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+            android:name=".activities.MainTabActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity
             android:name=".activities.RouteSelectionActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity
             android:name=".activities.MyRouteMapActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity
             android:name=".activities.AllNetworkMapActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
     </application>
 
 </manifest>

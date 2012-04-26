@@ -1,6 +1,5 @@
 package it.smartitaly.firenzeinbici;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;

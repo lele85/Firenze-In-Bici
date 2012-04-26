@@ -11,7 +11,7 @@ import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 
-public class CreateTabActivity extends TabActivity {
+public class MainTabActivity extends TabActivity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -23,9 +23,9 @@ public class CreateTabActivity extends TabActivity {
 				RouteSelectionActivity.class);
 		Intent allNetworkIntent = new Intent().setClass(this,
 				AllNetworkMapActivity.class);
-		setupTab(new TextView(this), "Suggeriti", tabHost, routeSelectionIntent, R.layout.tab_layout);
-		setupTab(new TextView(this), "Rete", tabHost, allNetworkIntent, R.layout.async_tab_layout);
-		setupTab(new TextView(this), "Segnala", tabHost, allNetworkIntent, R.layout.tab_layout);
+		setupTab(new TextView(this), "Percorsi Suggeriti", tabHost, routeSelectionIntent, R.layout.tab_layout);
+		setupTab(new TextView(this), "Tutta La Rete Ciclabile", tabHost, allNetworkIntent, R.layout.tab_layout);
+		setupTab(new TextView(this), "Proponi il tuo percorso", tabHost, allNetworkIntent, R.layout.tab_layout);
 
 		tabHost.setCurrentTab(0);
 

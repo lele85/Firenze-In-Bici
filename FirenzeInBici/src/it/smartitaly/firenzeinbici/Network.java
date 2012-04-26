@@ -2,7 +2,6 @@ package it.smartitaly.firenzeinbici;
 
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 

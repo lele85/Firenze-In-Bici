@@ -1,6 +1,5 @@
 package it.smartitaly.firenzeinbici;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +11,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-
-import android.content.res.XmlResourceParser;
 
 import com.google.android.maps.GeoPoint;
 

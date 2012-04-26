@@ -1,0 +1,4083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+   <Document xmlns:atom="http://purl.org/atom/ns#">
+      <name>arredo_urbano:colonninericarica</name>
+      <LookAt>
+         <longitude>11.248778780984495</longitude>
+         <latitude>43.77129682784633</latitude>
+         <altitude>15136.890376183885</altitude>
+         <range>12231.401379140163</range>
+         <tilt>0.0</tilt>
+         <heading>0.0</heading>
+         <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="colonninericarica.73">
+         <name><![CDATA[colonninericarica.73]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Benedetto Fortini 171</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.291277652017087</longitude>
+            <latitude>43.740553994434656</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.291277652017085,43.74055399443466</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.64">
+         <name><![CDATA[colonninericarica.64]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Tagliamento (pressi civico 4 - sede Q.3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.305679832389401</longitude>
+            <latitude>43.751536909508424</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.305679832389396,43.75153690950841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.77">
+         <name><![CDATA[colonninericarica.77]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza di Badia a Ripoli (fronte civico 1R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.298400944539964</longitude>
+            <latitude>43.75541655330774</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.29840094453996,43.75541655330774</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.68">
+         <name><![CDATA[colonninericarica.68]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Andorra 4</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.296485946080765</longitude>
+            <latitude>43.75664634612863</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.29648594608077,43.756646346128626</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.69">
+         <name><![CDATA[colonninericarica.69]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Europa (pressi civico 109)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.294230830230347</longitude>
+            <latitude>43.75694723012136</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.294230830230342,43.756947230121355</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.67">
+         <name><![CDATA[colonninericarica.67]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Cardinale Elia Dalla Costa (fronte Giannotti 43)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.285046534879427</longitude>
+            <latitude>43.75977132251613</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.28504653487942,43.75977132251612</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.74">
+         <name><![CDATA[colonninericarica.74]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Kassel (pressi civico 30)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.299644491019961</longitude>
+            <latitude>43.76089519316171</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.29964449101996,43.76089519316171</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.76">
+         <name><![CDATA[colonninericarica.76]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Nanchino (fronte civico 4)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.30639602347604</longitude>
+            <latitude>43.761427480494234</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.306396023476037,43.761427480494234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.70">
+         <name><![CDATA[colonninericarica.70]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Gualfredotto da Milano (fronte civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.285906741449864</longitude>
+            <latitude>43.76226605310047</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.28590674144987,43.76226605310047</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.75">
+         <name><![CDATA[colonninericarica.75]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Poggio Bracciolini (pressi civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.281854279695551</longitude>
+            <latitude>43.76343472299005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.281854279695551,43.76343472299005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.53">
+         <name><![CDATA[colonninericarica.53]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Lungarno Aldo Moro (presso civico 2)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.295989194034064</longitude>
+            <latitude>43.76708389151834</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.295989194034053,43.76708389151834</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.48">
+         <name><![CDATA[colonninericarica.48]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Leon Battista Alberti (pressi civico 6 - Q.2)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.28089266414733</longitude>
+            <latitude>43.76981080096982</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.280892664147332,43.769810800969815</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.54">
+         <name><![CDATA[colonninericarica.54]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via del Mezzetta 6</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.29262861520695</longitude>
+            <latitude>43.773152817010676</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.292628615206949,43.773152817010676</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.61">
+         <name><![CDATA[colonninericarica.61]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Gabriele D'Annunzio 46B</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.29140767176959</longitude>
+            <latitude>43.77537408356556</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.291407671769592,43.77537408356555</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.52">
+         <name><![CDATA[colonninericarica.52]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Pasquale Paoli 2</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.286246211145595</longitude>
+            <latitude>43.77739985220165</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.286246211145608,43.77739985220165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.62">
+         <name><![CDATA[colonninericarica.62]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Eleonora Duse (pressi civico 1B)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.295239053664574</longitude>
+            <latitude>43.778551462971166</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.295239053664574,43.778551462971166</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.51">
+         <name><![CDATA[colonninericarica.51]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale dei Mille 1/E R</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.280136290334724</longitude>
+            <latitude>43.7800768616427</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.280136290334719,43.78007686164271</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.49">
+         <name><![CDATA[colonninericarica.49]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Aurelio Nicolodi 11</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.285563139169582</longitude>
+            <latitude>43.78455043468637</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.28556313916958,43.78455043468637</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.63">
+         <name><![CDATA[colonninericarica.63]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Alessandro Volta 36</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.279228847985607</longitude>
+            <latitude>43.785361131212156</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.279228847985603,43.78536113121215</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.66">
+         <name><![CDATA[colonninericarica.66]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Francesco Ferrucci (fronte civico 2R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.272039954135138</longitude>
+            <latitude>43.7638260721432</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.272039954135133,43.7638260721432</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.24">
+         <name><![CDATA[colonninericarica.24]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Giuseppe Poggi (interno piazza)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.264730702968976</longitude>
+            <latitude>43.76461926507253</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.26473070296897,43.764619265072525</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.14">
+         <name><![CDATA[colonninericarica.14]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via dei Renai (fronte civico 7R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.260405229367464</longitude>
+            <latitude>43.765005546044925</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.260405229367466,43.76500554604492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.31">
+         <name><![CDATA[colonninericarica.31]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Mentana 4A</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.25803705491488</longitude>
+            <latitude>43.767494048488516</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.25803705491486,43.767494048488516</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.32">
+         <name><![CDATA[colonninericarica.32]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Mentana 4A</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.258046294142673</longitude>
+            <latitude>43.76756175395058</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.258046294142654,43.76756175395058</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.9">
+         <name><![CDATA[colonninericarica.9]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Torta 1 R</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.26057930895476</longitude>
+            <latitude>43.76934965788679</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.260579308954766,43.76934965788679</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.2">
+         <name><![CDATA[colonninericarica.2]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via dei Gondi (pressi civico 1)</span></li>
+  
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">Off</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.257009897518472</longitude>
+            <latitude>43.769472883566074</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.25700989751847,43.76947288356608</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.33">
+         <name><![CDATA[colonninericarica.33]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via delle Farine 1</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.256065516445446</longitude>
+            <latitude>43.770087872711336</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.256065516445444,43.77008787271134</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.1">
+         <name><![CDATA[colonninericarica.1]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via delle Farine 1</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.25606975689054</longitude>
+            <latitude>43.770116991393</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.256069756890534,43.77011699139302</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.11">
+         <name><![CDATA[colonninericarica.11]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale della Giovine Italia (pressi 13R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.270493623795986</longitude>
+            <latitude>43.77020636657208</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.270493623795998,43.77020636657208</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.18">
+         <name><![CDATA[colonninericarica.18]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Lorenzo Ghiberti (pressi civico 18R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">SCHUKO</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.266333226707417</longitude>
+            <latitude>43.770430961158</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.266333226707413,43.77043096115801</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.44">
+         <name><![CDATA[colonninericarica.44]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Lorenzo Ghiberti (pressi civico 20R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.26636155728778</longitude>
+            <latitude>43.77050685294517</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.266361557287773,43.77050685294516</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.40">
+         <name><![CDATA[colonninericarica.40]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dei Ciompi (fronte civico 10)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.265090397496579</longitude>
+            <latitude>43.77116579279483</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.265090397496593,43.77116579279484</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.111">
+         <name><![CDATA[colonninericarica.111]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via di San Pier Maggiore (pressi civico 3R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.262201714554053</longitude>
+            <latitude>43.771228269624935</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.262201714554047,43.771228269624935</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.39">
+         <name><![CDATA[colonninericarica.39]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dei Ciompi (fronte civico 10)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.265114890464645</longitude>
+            <latitude>43.77121062516145</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.265114890464645,43.77121062516145</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.19">
+         <name><![CDATA[colonninericarica.19]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Filippo Brunelleschi 6</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">SCHUKO</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.259944720633925</longitude>
+            <latitude>43.77485530625863</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.259944720633918,43.77485530625864</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.56">
+         <name><![CDATA[colonninericarica.56]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Nathan Cassuto 7</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.272223589899099</longitude>
+            <latitude>43.774835119443864</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.272223589899081,43.77483511944388</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.46">
+         <name><![CDATA[colonninericarica.46]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via della Pergola (fronte pressi civico 63)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.263253903760301</longitude>
+            <latitude>43.77532033895575</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.263253903760296,43.77532033895575</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.16">
+         <name><![CDATA[colonninericarica.16]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Massimo D'Azeglio (fronte civico 1)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.26777394614895</longitude>
+            <latitude>43.77532815806043</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.267773946148946,43.77532815806044</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.25">
+         <name><![CDATA[colonninericarica.25]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza di San Marco  (pressi civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.259157960714575</longitude>
+            <latitude>43.778058342842115</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.25915796071458,43.778058342842115</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.7">
+         <name><![CDATA[colonninericarica.7]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza di San Marco  (pressi civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.259106774713175</longitude>
+            <latitude>43.778079814311816</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.259106774713178,43.77807981431182</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.58">
+         <name><![CDATA[colonninericarica.58]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Giacomo Matteotti 1A</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.266707253453973</longitude>
+            <latitude>43.7786014360599</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.266707253453983,43.7786014360599</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.57">
+         <name><![CDATA[colonninericarica.57]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Iacopo Nardi (pressi civico 64)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.27483593920934</longitude>
+            <latitude>43.77869966391241</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.274835939209344,43.778699663912406</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.321">
+         <name><![CDATA[colonninericarica.321]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Bonifazio Lupi (pressi civico 35/A)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.257383124081883</longitude>
+            <latitude>43.782495056402304</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.257383124081889,43.782495056402304</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.38">
+         <name><![CDATA[colonninericarica.38]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Bonifazio Lupi (pressi civico 35)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.25733916243631</longitude>
+            <latitude>43.782531366652805</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.257339162436311,43.782531366652805</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.60">
+         <name><![CDATA[colonninericarica.60]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Leonardo da Vinci (pressi civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.265661847280484</longitude>
+            <latitude>43.782479579002135</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.265661847280485,43.782479579002135</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.15">
+         <name><![CDATA[colonninericarica.15]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza della Libertà (pressi civico 4)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.260661661026063</longitude>
+            <latitude>43.78407261540095</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.260661661026061,43.78407261540095</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.59">
+         <name><![CDATA[colonninericarica.59]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Alessandro Volta (pressi civico199)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.269511591454219</longitude>
+            <latitude>43.78665282478336</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.269511591454213,43.78665282478335</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.50">
+         <name><![CDATA[colonninericarica.50]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Alessandro Volta (pressi civico199)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">SCHUKO</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.269473124671862</longitude>
+            <latitude>43.78666943894164</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.269473124671881,43.786669438941644</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.94">
+         <name><![CDATA[colonninericarica.94]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Vittorio Emanuele II (civico 64 -Villa Fabbricotti)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.256455334646915</longitude>
+            <latitude>43.789349904084176</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.256455334646926,43.78934990408418</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.55">
+         <name><![CDATA[colonninericarica.55]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">2 CAMPO DI MARTE</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Giovanni Sercambi 38</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.270058709172048</longitude>
+            <latitude>43.79141146441663</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.27005870917206,43.791411464416626</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.45">
+         <name><![CDATA[colonninericarica.45]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via della Scala 65</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.245961205511534</longitude>
+            <latitude>43.77522884316621</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.245961205511529,43.775228843166204</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.22">
+         <name><![CDATA[colonninericarica.22]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza del Mercato Centrale (Parcheggio sotterraneo)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.253048919266533</longitude>
+            <latitude>43.776327732369445</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253048919266538,43.77632773236945</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.23">
+         <name><![CDATA[colonninericarica.23]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza del Mercato Centrale (Parcheggio sotterraneo)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.2530352761068</longitude>
+            <latitude>43.77634118545933</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253035276106797,43.77634118545933</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.5">
+         <name><![CDATA[colonninericarica.5]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza del Mercato Centrale (pressi civico 10)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.25348850657204</longitude>
+            <latitude>43.77709235286548</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253488506572037,43.77709235286549</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.42">
+         <name><![CDATA[colonninericarica.42]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza del Mercato Centrale (pressi civico 10)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.253463459871284</longitude>
+            <latitude>43.777103936034756</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253463459871272,43.77710393603475</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.21">
+         <name><![CDATA[colonninericarica.21]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Santa Reparata 4A</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.255622066060411</longitude>
+            <latitude>43.777647863348555</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.2556220660604,43.77764786334855</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.43">
+         <name><![CDATA[colonninericarica.43]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Adua</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.249108186958296</longitude>
+            <latitude>43.777882115594295</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.249108186958289,43.777882115594295</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.8">
+         <name><![CDATA[colonninericarica.8]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Adua  (pressi civico 1)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.24910423863173</longitude>
+            <latitude>43.77791833336598</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.249104238631732,43.777918333365974</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.6">
+         <name><![CDATA[colonninericarica.6]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazzale di Porta al Prato 8</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.240471000826417</longitude>
+            <latitude>43.77833166895225</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.240471000826414,43.77833166895225</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.13">
+         <name><![CDATA[colonninericarica.13]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dell'Indipendenza (pressi Via della Fortezza)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.252595118669888</longitude>
+            <latitude>43.779387510183035</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.252595118669886,43.77938751018303</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.112">
+         <name><![CDATA[colonninericarica.112]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dell'Indipendenza (pressi Via della Fortezza)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.252611397492757</longitude>
+            <latitude>43.77941178636034</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.252611397492753,43.779411786360335</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.20">
+         <name><![CDATA[colonninericarica.20]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Filippo Strozzi / Via Valfonda</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">Off</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.24817131136598</longitude>
+            <latitude>43.77987966776844</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.248171311365981,43.77987966776844</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.34">
+         <name><![CDATA[colonninericarica.34]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Giovanni Paisiello</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.232242301007375</longitude>
+            <latitude>43.78196380173163</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.232242301007373,43.78196380173164</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.28">
+         <name><![CDATA[colonninericarica.28]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Alessandro Scarlatti 16</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.23881560090851</longitude>
+            <latitude>43.78191946428021</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.238815600908527,43.78191946428021</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.100">
+         <name><![CDATA[colonninericarica.100]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza della Costituzione (presso civico 7)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.251055793775095</longitude>
+            <latitude>43.78469899284252</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.251055793775086,43.78469899284252</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.101">
+         <name><![CDATA[colonninericarica.101]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza della Vittoria (fronte Via F. Puccinotti 53)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.256010576286812</longitude>
+            <latitude>43.7858816893517</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.256010576286815,43.7858816893517</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.99">
+         <name><![CDATA[colonninericarica.99]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Raffaello Lambruschini (pressi civico 33)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.251913716761933</longitude>
+            <latitude>43.78889986813986</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.251913716761937,43.78889986813986</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.104">
+         <name><![CDATA[colonninericarica.104]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Giovanni de' Marignolli (fronte pressi civico 5)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.235194958451615</longitude>
+            <latitude>43.78936029064862</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.235194958451615,43.78936029064863</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.106">
+         <name><![CDATA[colonninericarica.106]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via del Palazzo Bruciato (pressi civico 1)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.244630506117659</longitude>
+            <latitude>43.79067937388587</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.244630506117664,43.79067937388587</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.109">
+         <name><![CDATA[colonninericarica.109]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Enrico Forlanini (pressi civico 164)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">Off</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.233917438721392</longitude>
+            <latitude>43.79307413833392</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.233917438721395,43.79307413833393</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.103">
+         <name><![CDATA[colonninericarica.103]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via del Terzolle (pressi civico 95)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.238151868637033</longitude>
+            <latitude>43.79615431338992</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.238151868637033,43.79615431338994</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.98">
+         <name><![CDATA[colonninericarica.98]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Dalmazia (pressi civico 37 R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.24029972899902</longitude>
+            <latitude>43.796730306814744</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.24029972899902,43.796730306814744</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.95">
+         <name><![CDATA[colonninericarica.95]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via dello Steccuto 1R</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.236982447424168</longitude>
+            <latitude>43.80038592836527</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.236982447424174,43.800385928365266</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.107">
+         <name><![CDATA[colonninericarica.107]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Bruno Borghi (pressi civico 4)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.244877630423389</longitude>
+            <latitude>43.800262914975825</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.24487763042339,43.80026291497582</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.97">
+         <name><![CDATA[colonninericarica.97]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Giovan Battista Morgagni - Ingresso Ospedale</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">Off</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.246221610885655</longitude>
+            <latitude>43.80317212210913</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.246221610885643,43.803172122109125</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.108">
+         <name><![CDATA[colonninericarica.108]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Luigi Morandi (pressi civico 31)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.23846161995364</longitude>
+            <latitude>43.80728265213231</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.23846161995364,43.80728265213232</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.87">
+         <name><![CDATA[colonninericarica.87]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Francesco Granacci (pressi civico 30)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.199157780455764</longitude>
+            <latitude>43.76765703602699</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.199157780455758,43.767657036026996</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.80">
+         <name><![CDATA[colonninericarica.80]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via di Scandicci (Ospedale Torregalli fronte civico 322)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">SCHUKO</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">Off</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.20292825903563</longitude>
+            <latitude>43.75905989736992</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.202928259035648,43.75905989736992</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.86">
+         <name><![CDATA[colonninericarica.86]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via del Pozzino angolo Via del Ronco Lungo</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.206077627717548</longitude>
+            <latitude>43.76808427463157</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.206077627717528,43.76808427463157</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.85">
+         <name><![CDATA[colonninericarica.85]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Pier della Francesca 3 R</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.212413733093939</longitude>
+            <latitude>43.770275407881144</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.212413733093936,43.770275407881144</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.84">
+         <name><![CDATA[colonninericarica.84]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via di Scandicci (fronte civico 112)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.212888171776825</longitude>
+            <latitude>43.76638653897627</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.212888171776806,43.76638653897626</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.82">
+         <name><![CDATA[colonninericarica.82]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via di Soffiano (fronte civico 56 )</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.22353954000151</longitude>
+            <latitude>43.76953475277674</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.223539540001505,43.76953475277674</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.65">
+         <name><![CDATA[colonninericarica.65]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Niccolò Acciaioli (fronte civico 20)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.225224990317884</longitude>
+            <latitude>43.735599534834954</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.22522499031788,43.73559953483495</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.71">
+         <name><![CDATA[colonninericarica.71]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Don Pietro Puliti (presso campo sportivo)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.226120266690032</longitude>
+            <latitude>43.73528209476657</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.226120266690028,43.73528209476657</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.91">
+         <name><![CDATA[colonninericarica.91]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza Pier Vettori  (pressi civico 154R V. Pisana)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.233274037775644</longitude>
+            <latitude>43.771685786734864</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.233274037775644,43.77168578673485</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.92">
+         <name><![CDATA[colonninericarica.92]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Aleardo Aleardi (pressi civico 41)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.236983603353679</longitude>
+            <latitude>43.768670960245586</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.236983603353659,43.76867096024559</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.81">
+         <name><![CDATA[colonninericarica.81]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via della Fonderia (fronte civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.238637449699567</longitude>
+            <latitude>43.77253314726178</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.238637449699578,43.77253314726178</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.72">
+         <name><![CDATA[colonninericarica.72]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">3 GAVINANA GALLUZZO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via del Gelsomino (presso civico 95)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.23807941791361</longitude>
+            <latitude>43.75021000164263</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.238079417913614,43.75021000164263</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.47">
+         <name><![CDATA[colonninericarica.47]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Ludovico Ariosto (fronte civico 18)- Via dell'Orto</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.239674389885124</longitude>
+            <latitude>43.76916301331837</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.23967438988513,43.76916301331837</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.12">
+         <name><![CDATA[colonninericarica.12]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale Francesco Petrarca 128</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.241323207027477</longitude>
+            <latitude>43.76082915605226</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.241323207027468,43.76082915605226</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.17">
+         <name><![CDATA[colonninericarica.17]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza di Cestello (pressi civico 10)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.243520760148556</longitude>
+            <latitude>43.77050426478069</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.243520760148563,43.770504264780676</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.10">
+         <name><![CDATA[colonninericarica.10]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza del Carmine (pressi civico 22)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.243730059656386</longitude>
+            <latitude>43.768884389861704</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.243730059656391,43.768884389861704</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.29">
+         <name><![CDATA[colonninericarica.29]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Borgo Ognissanti 15</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.24637621618379</longitude>
+            <latitude>43.77189261334388</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.246376216183807,43.77189261334388</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.27">
+         <name><![CDATA[colonninericarica.27]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Lungarno Guicciardini  7R</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.24963182126669</longitude>
+            <latitude>43.76861075640631</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.249631821266693,43.76861075640632</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.26">
+         <name><![CDATA[colonninericarica.26]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Lungarno Corsini 6R</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.250472877477137</longitude>
+            <latitude>43.76964584469206</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.250472877477142,43.769645844692064</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.4">
+         <name><![CDATA[colonninericarica.4]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dei Pitti (pressi civico 26)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.251080127851068</longitude>
+            <latitude>43.76628117862175</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.251080127851068,43.76628117862175</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.41">
+         <name><![CDATA[colonninericarica.41]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dei Pitti (pressi civico 26)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.251118237655504</longitude>
+            <latitude>43.76624295236166</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.251118237655497,43.76624295236166</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.35">
+         <name><![CDATA[colonninericarica.35]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via del Campidoglio 2</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.25329176948459</longitude>
+            <latitude>43.77224103257748</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253291769484596,43.77224103257748</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.3">
+         <name><![CDATA[colonninericarica.3]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Pellicceria (fronte civico 36R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.253498437356882</longitude>
+            <latitude>43.770877613708</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253498437356884,43.77087761370801</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.36">
+         <name><![CDATA[colonninericarica.36]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Pellicceria (fronte civico 36R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.253500929593685</longitude>
+            <latitude>43.77082633866694</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.253500929593677,43.770826338666936</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.88">
+         <name><![CDATA[colonninericarica.88]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via della Madonna di Pagano (pressi civico 1/A)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.191230860608812</longitude>
+            <latitude>43.77864944295905</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.1912308606088,43.77864944295906</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.93">
+         <name><![CDATA[colonninericarica.93]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Luca Signorelli (pressi civico 24)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.194116223739954</longitude>
+            <latitude>43.77636997063302</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.19411622373995,43.77636997063301</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.102">
+         <name><![CDATA[colonninericarica.102]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Pratese (fronte civico 44)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.195308508584802</longitude>
+            <latitude>43.79869885626803</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.195308508584803,43.798698856268025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.90">
+         <name><![CDATA[colonninericarica.90]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Antonio Canova 166</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.19776497377552</longitude>
+            <latitude>43.77919939822717</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.197764973775524,43.77919939822716</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.78">
+         <name><![CDATA[colonninericarica.78]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Assisi (presso ex Q4 - sede calcio storico rossi)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.200396000377097</longitude>
+            <latitude>43.78154538225408</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.200396000377085,43.781545382254095</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.89">
+         <name><![CDATA[colonninericarica.89]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Giovanni Segantini angolo Via Cesare Maccari</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.209075069285731</longitude>
+            <latitude>43.77690644845603</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.209075069285735,43.77690644845603</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.79">
+         <name><![CDATA[colonninericarica.79]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Viale delle Magnolie (angolo Viale dei Pini)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">SCHUKO</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.216513647422175</longitude>
+            <latitude>43.778180322485426</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.21651364742218,43.778180322485426</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.110">
+         <name><![CDATA[colonninericarica.110]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Arcangelo Corelli (fronte civico 11)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.218211991494556</longitude>
+            <latitude>43.791153802534026</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.21821199149455,43.791153802534026</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.105">
+         <name><![CDATA[colonninericarica.105]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Lippi e Macia (pressi civico 63R)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.219327355576354</longitude>
+            <latitude>43.79743425237418</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.219327355576358,43.797434252374195</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.96">
+         <name><![CDATA[colonninericarica.96]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">5 RIFREDI</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Piazza dell'Elba (fronte civico 3)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.220738364508719</longitude>
+            <latitude>43.793538086503425</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.220738364508708,43.79353808650344</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.83">
+         <name><![CDATA[colonninericarica.83]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">4 ISOLOTTO LEGNAIA</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Baccio Bandinelli</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">CIVES</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.22765769227864</longitude>
+            <latitude>43.775981806549794</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.227657692278644,43.7759818065498</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.30">
+         <name><![CDATA[colonninericarica.30]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Francesco Veracini (fronte civico 13)</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.230439605952071</longitude>
+            <latitude>43.78567908020507</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.230439605952066,43.78567908020507</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="colonninericarica.37">
+         <name><![CDATA[colonninericarica.37]]></name>
+         <description><![CDATA[<h4>colonninericarica</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">QUARTIERE</span>:</strong> <span class="atr-value">1 CENTRO STORICO</span></li>
+  <li><strong><span class="atr-name">INDIRIZZO</span>:</strong> <span class="atr-value">Via Giuseppe Galliano 152</span></li>
+  <li><strong><span class="atr-name">TIPO</span>:</strong> <span class="atr-value">INDUSTRIALE</span></li>
+  <li><strong><span class="atr-name">STATO</span>:</strong> <span class="atr-value">On</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>11.230767074725819</longitude>
+            <latitude>43.786304718045656</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://datigis.comune.fi.it/img/battery_charging_s.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>11.230767074725822,43.786304718045656</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
+</kml>
