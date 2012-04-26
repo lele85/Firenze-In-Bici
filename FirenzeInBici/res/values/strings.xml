@@ -5,6 +5,6 @@
     <string name="app_name">FirenzeInBici</string>
     <string name="textinfo">Info</string>
     <string name="pdiinfo">PDI</string>
-    <string name="routedescription">No Image Available</string>
+    <string name="imagedescription">No Image Available</string>
 
 </resources>

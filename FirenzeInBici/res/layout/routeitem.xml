@@ -8,7 +8,7 @@
         android:id="@+id/routeimage"
         android:layout_width="100dip"
         android:layout_height="100dip"
-        android:contentDescription="@+string/routedescription" />
+        android:contentDescription="@+string/imagedescription" />
 
     <LinearLayout
         android:layout_toRightOf="@id/routeimage"

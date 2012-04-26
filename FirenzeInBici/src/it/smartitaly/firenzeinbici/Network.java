@@ -3,6 +3,7 @@ package it.smartitaly.firenzeinbici;
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 import com.google.android.maps.GeoPoint;
@@ -12,9 +13,9 @@ public class Network {
 
 	private ArrayList<ArrayList<GeoPoint>> _paths = new ArrayList<ArrayList<GeoPoint>>();
 	private OnNetworkDataAvailableListener _listener;
-	private File _definitionFile;
+	private InputStream _definitionFile;
 	
-	public Network(File definitionFile){
+	public Network(InputStream definitionFile){
 		_definitionFile =  definitionFile;
 	}
 	

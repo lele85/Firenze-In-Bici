@@ -1,6 +1,7 @@
 package it.smartitaly.firenzeinbici;
 
 import java.io.File;
+import java.io.InputStream;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.util.ArrayList;
@@ -21,10 +22,10 @@ import com.google.android.maps.GeoPoint;
 public class ParseAllNetwork extends AsyncTask<String, String, String> {
 	
 	private Network _network;
-	private File _definitionFile;
+	private InputStream _definitionFile;
 	private ArrayList<ArrayList<GeoPoint>> _parsed_paths = new ArrayList<ArrayList<GeoPoint>>(); 
 
-	public ParseAllNetwork(Network network, File definitionFile){
+	public ParseAllNetwork(Network network, InputStream definitionFile){
 		_definitionFile = definitionFile;
 		_network = network;
 	}
@@ -41,7 +42,7 @@ public class ParseAllNetwork extends AsyncTask<String, String, String> {
 		super.onPostExecute(result);
 	}
 
-	public void parseXML(File definitionFile){
+	public void parseXML(InputStream definitionFile){
 		
 		NodeList nList = null;
 		

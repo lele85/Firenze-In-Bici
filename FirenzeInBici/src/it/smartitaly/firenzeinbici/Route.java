@@ -1,6 +1,7 @@
 package it.smartitaly.firenzeinbici;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class Route {
 	private double STANDARD_GASOLINE_EURO_PER_LITRE = 1.9;
 	
 	
-	public static List<Route> getAll(File definitionFile){
+	public static List<Route> getAll(InputStream definitionFile){
 		
 		NodeList nList;
 		ArrayList<Route> routes = new ArrayList<Route>();

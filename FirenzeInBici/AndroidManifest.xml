@@ -31,6 +31,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".activities.CreateTabActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
             android:name=".activities.RouteSelectionActivity"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
         <activity

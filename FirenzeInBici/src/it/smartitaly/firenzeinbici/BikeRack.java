@@ -1,6 +1,7 @@
 package it.smartitaly.firenzeinbici;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +22,7 @@ public class BikeRack implements GeoLocalized {
 	private String description;
 	private GeoPoint place;
 	
-	public static List<BikeRack> getAll(File definitionFile){
+	public static List<BikeRack> getAll(InputStream definitionFile){
 		
 		NodeList nList;
 		ArrayList<BikeRack> bikeRacks = new ArrayList<BikeRack>();

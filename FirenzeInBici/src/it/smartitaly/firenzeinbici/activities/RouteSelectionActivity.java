@@ -13,7 +13,6 @@ import java.util.List;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -45,8 +44,7 @@ public class RouteSelectionActivity extends MapActivity {
 
 		listroutes = (ListView) findViewById(R.id.listroutes);
 
-		finalroutes = Route.getAll(_globalState.getAppPaths().getFile(
-				AppPaths.Resources.ROUTES_FILE));
+		finalroutes = Route.getAll(getResources().openRawResource(R.raw.routes));
 
 		ArrayList<HashMap<String, Object>> myroutes = new ArrayList<HashMap<String, Object>>();
 
@@ -69,7 +67,6 @@ public class RouteSelectionActivity extends MapActivity {
 			public boolean setViewValue(View view, Object data,
 					String textRepresentation) {
 				if (data instanceof Bitmap) {
-					Log.i("PATHS", "bitmap");
 					Bitmap thumb = (Bitmap) data;
 					ImageView imageView = (ImageView) view;
 					imageView.setImageBitmap(thumb);
