@@ -34,7 +34,9 @@ public class Route {
 	private double STANDARD_BIKE_SPEED_KM_PER_HOUR = 9.0;
 	private double STANDARD_AUTO_KM_PER_LITRE = 18.0;
 	private double STANDARD_GASOLINE_EURO_PER_LITRE = 1.9;
-	
+	private double METS_CYCLYNG_SLOW = 4;
+	private double HUMAN_WEIGHT_KG = 70;
+	private double KCALS_IN_ONE_GRAM = 7.71617917647;
 	
 	public static List<Route> getAll(InputStream definitionFile){
 		
@@ -145,12 +147,13 @@ public class Route {
 		return thumb_name;
 	}
 	
-	public double getLostWeight(){
-		return 13;
+	public double getGramsOfFatBurned(){
+		return getBurnedKcal()/KCALS_IN_ONE_GRAM;
 	}
 	
-	public double getLostKcal(){
-		return 105;
+	public double getBurnedKcal(){
+		double lostKCals = METS_CYCLYNG_SLOW * HUMAN_WEIGHT_KG * getTravelTimeInMinutes()/60;
+		return lostKCals;
 	}
 	
 	// Speed km/h

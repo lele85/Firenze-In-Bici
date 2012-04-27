@@ -218,6 +218,7 @@ public class MyRouteMapActivity extends MapActivity {
 	}
 	
 	private void populateUi(){
+		populateTextView(_route.getName(), R.id.top_bar_name);
 		populateTextView(_route.getDescription(), R.id.top_bar_description);
 		populateTextView(stringify(_route.getCo2SavedInKiloGrams(), "#.# Kg"), R.id.co2_kg_label);
 		populateTextView(stringify(_route.getCo2SavedInGrams(), "#.### g"), R.id.co2_g_label);
@@ -225,8 +226,8 @@ public class MyRouteMapActivity extends MapActivity {
 		populateTextView(stringify(_route.getLenght(),"#.# Km"), R.id.distance_km_label);
 		populateTextView(stringify(_route.getGasolineSavedInEuro(), "#.## €"), R.id.benzina_euro_label);
 		populateTextView(stringify(_route.getGasolineSavedInLitre(),"#.# litri"), R.id.benzina_litri_label);
-		populateTextView(stringify(_route.getLostKcal(), "# kcal"), R.id.consumo_calorico_label);
-		populateTextView(stringify(_route.getLostWeight(), "# gr"), R.id.peso_smaltito_label);
+		populateTextView(stringify(_route.getBurnedKcal(), "# kcal"), R.id.consumo_calorico_label);
+		populateTextView(stringify(_route.getGramsOfFatBurned(), "# gr"), R.id.peso_smaltito_label);
 	}
 	
 	private String stringify(double number, String format){
