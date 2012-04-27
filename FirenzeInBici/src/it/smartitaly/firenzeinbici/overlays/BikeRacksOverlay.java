@@ -90,7 +90,7 @@ public class BikeRacksOverlay extends ItemizedOverlay<OverlayItem> {
 		return _items.size();
 	}
 	
-	@Override
+	/*@Override
 	protected boolean onTap(int index) {
 		// TODO Auto-generated method stub
 		//WebView v = new WebView(_context);
@@ -101,6 +101,6 @@ public class BikeRacksOverlay extends ItemizedOverlay<OverlayItem> {
 		AlertDialog.Builder b = new Builder(_context);
 		b.setView(v).create().show();
 		return super.onTap(index);
-	}
+	}*/
 	
 }

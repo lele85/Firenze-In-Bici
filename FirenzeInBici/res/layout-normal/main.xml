@@ -28,7 +28,7 @@
             android:layout_below="@+id/TextView01"
             android:layout_marginLeft="5dp"
             android:layout_toLeftOf="@+id/btnpdi"
-            android:maxLines="2"
+            android:maxLines="3"
             android:text="Lorem ipsum bla bla bla bla su due linee"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/firenzeIvory"
@@ -79,7 +79,7 @@
 
             <LinearLayout
                 android:layout_width="fill_parent"
-                android:layout_height="80dp"
+                android:layout_height="74dp"
                 android:layout_weight="0.33"
                 android:layout_margin="3dp"
                 android:background="@drawable/rounded_edges"
@@ -99,7 +99,7 @@
                     android:maxLines="1"
                     android:textStyle="bold"
                     android:text="3,7 km"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/firenzeIvory" />
                 <TextView
                     android:id="@+id/travel_time_min_label"
@@ -113,7 +113,7 @@
             
             <LinearLayout
                 android:layout_width="fill_parent"
-                android:layout_height="80dp"
+                android:layout_height="74dp"
                 android:layout_weight="0.33"
                 android:layout_margin="3dp"
                 android:background="@drawable/rounded_edges"
@@ -123,7 +123,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="1"
-                    android:text="Risparmio CO²"
+                    android:text="CO2"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/firenzeIvory" />
                 <TextView
@@ -133,7 +133,7 @@
                     android:maxLines="1"
                     android:textStyle="bold"
                     android:text="0,5 kg"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/firenzeIvory" />
                 <TextView
                     android:id="@+id/co2_g_label"
@@ -146,7 +146,7 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="fill_parent"
-                android:layout_height="80dp"
+                android:layout_height="74dp"
                 android:layout_weight="0.33"
                 android:layout_margin="3dp"
                 android:background="@drawable/rounded_edges"
@@ -156,7 +156,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="1"
-                    android:text="Risparmio Benzina"
+                    android:text="Benzina"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/firenzeIvory" />
                 <TextView
@@ -166,7 +166,7 @@
                     android:maxLines="1"
                     android:textStyle="bold"
                     android:text="0,38 €"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/firenzeIvory" />
                 <TextView
                     android:id="@+id/benzina_litri_label"
@@ -193,7 +193,7 @@
                 android:orientation="horizontal">
                 <TextView android:text="(1)"
                     android:textColor="#000000"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textStyle="bold"
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
@@ -201,7 +201,7 @@
                     android:layout_weight="1"/>
            		<TextView android:text="Calcolati con velocità 9km/h"
            		    android:textColor="#000000"
-           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           		    android:textAppearance="?android:attr/textAppearanceSmall"
            	   		android:layout_width="0dip"
            	    	android:layout_height="wrap_content"
            	    	android:layout_weight="9"/>
@@ -211,7 +211,7 @@
                 android:orientation="horizontal">
                 <TextView android:text="(2)"
                     android:textColor="#000000"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textStyle="bold"
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
@@ -219,7 +219,7 @@
                     android:layout_weight="1"/>
            		<TextView android:text="Calcolate su emissione media CO2 per 1 km: 127.97g/km"
            		    android:textColor="#000000"
-           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           		    android:textAppearance="?android:attr/textAppearanceSmall"
            	   		android:layout_width="0dip"
            	    	android:layout_height="wrap_content"
            	    	android:layout_weight="9"/>
@@ -229,7 +229,7 @@
                 android:orientation="horizontal">
                 <TextView android:text="(3)"
                     android:textColor="#000000"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textStyle="bold"
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
                     android:layout_weight="1"/>
            		<TextView android:text="Calcolato su consumo medio di 18km/l con auto a benzina verde (prezzo medio 1,9€/litro)"
            		    android:textColor="#000000"
-           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           		    android:textAppearance="?android:attr/textAppearanceSmall"
            	   		android:layout_width="0dip"
            	    	android:layout_height="wrap_content"
            	    	android:layout_weight="9"/>
@@ -332,7 +332,7 @@
         	    android:textAppearance="?android:attr/textAppearanceSmall"
         	    android:textColor="@color/firenzeIvory"
         	    android:paddingLeft="15dp"
-        	    android:paddingBottom="30dp"/>
+        	    android:paddingBottom="5dp"/>
     	</LinearLayout>
    	</RelativeLayout>
    	<RelativeLayout android:id="@+id/relativeFirenze"
@@ -344,34 +344,17 @@
    	        android:layout_height="fill_parent"
    	        android:orientation="horizontal"
    	        android:background="@color/firenzeRed">
-        	<ImageView android:layout_weight="3" 
-        	    android:layout_width="0dp"
-        	    android:layout_height="wrap_content"
-        	    android:src="@drawable/launcher_icon96x96"
-        	    android:layout_gravity="center"/>
         	<LinearLayout android:orientation="vertical" 
         	    android:layout_height="wrap_content"
         	    android:layout_width="wrap_content"
         	    android:paddingRight="5dp"
         	    android:layout_gravity="center">
-        		<TextView android:layout_weight="0.33"
-        	    	android:layout_width="wrap_content"
-	        	    android:layout_height="0dp"
-    	    	    android:text="Questo itinerario ciclabile"
-        		    android:textAppearance="?android:attr/textAppearanceLarge"
-        		    android:textColor="@color/firenzeIvory"/>
-        		<TextView android:layout_weight="0.33"
-        	    	android:layout_width="wrap_content"
-	        	    android:layout_height="0dp"
-    	    	    android:text="fa bene a te e alla nostra città."
-        		    android:textAppearance="?android:attr/textAppearanceLarge"
-        		    android:textColor="@color/firenzeIvory"/>
-        		<TextView android:layout_weight="0.33"
+        		<TextView
         	    	android:layout_width="wrap_content"
 	        	    android:layout_height="0dp"
 	        	    android:textStyle="bold"
     	    	    android:text="Grazie dal Comune di Firenze."
-        		    android:textAppearance="?android:attr/textAppearanceLarge"
+        		    android:textAppearance="?android:attr/textAppearanceMedium"
         		    android:textColor="@color/firenzeIvory"/>
         	</LinearLayout>
    	    </LinearLayout>

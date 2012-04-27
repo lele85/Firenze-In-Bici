@@ -88,12 +88,12 @@ public class FountainsOverlay extends ItemizedOverlay<OverlayItem> {
 		return _items.size();
 	}
 	
-	@Override
-	protected boolean onTap(int index) {
+	//@Override
+	/*protected boolean onTap(int index) {
 		// TODO Auto-generated method stub
 		AlertDialog.Builder b = new Builder(_context);
 		b.setMessage("Alerta").create().show();
 		return super.onTap(index);
-	}
+	}*/
 	
 }
