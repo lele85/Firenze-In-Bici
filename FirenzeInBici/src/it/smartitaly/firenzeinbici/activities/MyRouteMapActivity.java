@@ -19,22 +19,31 @@ import java.util.Map;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapView;
+import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.Overlay;
 
 public class MyRouteMapActivity extends MapActivity {
 
+	RelativeLayout relativeLayout2, relativeBodyInfo, relativeFirenze;
+	LinearLayout linearEcoInfo, linearExtraInfo;
 	private Route _route;
+	MyLocationOverlay myLocationOverlay;
+	List<Overlay> mapOverlays;
 	MapView mapview;
-	Button infoButton, pointsOfInterestButton;
+	Button infoButton, pointsOfInterestButton, myPositionButton;
 	List<Fountain> fountains;
 	List<BikeRack> racks;
 
@@ -46,7 +55,18 @@ public class MyRouteMapActivity extends MapActivity {
 
 		mapview = (MapView) findViewById(R.id.map);
 		mapview.setBuiltInZoomControls(true);
+		
+		mapOverlays = mapview.getOverlays();
+		myLocationOverlay = new MyLocationOverlay(getApplicationContext(), mapview);
 
+		relativeLayout2 = (RelativeLayout)findViewById(R.id.relativeLayout2);
+		relativeBodyInfo = (RelativeLayout)findViewById(R.id.relativeBodyInfo);
+		relativeFirenze = (RelativeLayout)findViewById(R.id.relativeFirenze);
+		
+		linearExtraInfo = (LinearLayout)findViewById(R.id.linearExtraInfo);
+		final int color = getResources().getColor(R.color.firenzeIvory);
+		linearExtraInfo.setBackgroundColor(color);
+		
 		GlobalState gs = (GlobalState) getApplication();
 		fountains = gs.getFountains();
 		racks = gs.getBikeRacks();
@@ -139,28 +159,62 @@ public class MyRouteMapActivity extends MapActivity {
 			}
 
 		});
-		
-		
 
+		// GlobalState gs = (GlobalState)getApplication();
+		_route = gs.getActiveRoute();
+		final RouteOverlay myOverlay = new RouteOverlay(_route, mapview);
+		mapview.getOverlays().add(myOverlay);
+		populateUi();
+		
+		myOverlay.centerMap();
+		
+		myPositionButton = (Button)findViewById(R.id.btnposition);
+		myPositionButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				if (myPositionButton.isSelected()){
+					myPositionButton.setSelected(false);
+					mapview.getController().animateTo(_route.getCenter());
+				}
+				else {
+					myPositionButton.setSelected(true);
+					myLocationOverlay.enableMyLocation();
+					Log.i("info",Boolean.toString(myLocationOverlay.isMyLocationEnabled()));
+					myLocationOverlay.runOnFirstFix(new Runnable() { 
+						public void run() {
+							mapview.getController().animateTo(myLocationOverlay.getMyLocation());
+						}
+						});
+					mapOverlays.add(myLocationOverlay);
+				}
+			}
+		});
+		
+		
 		infoButton = (Button) findViewById(R.id.btninfo);
 		infoButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
-
+				
+				if (infoButton.isSelected()){
+					infoButton.setSelected(false);
+					relativeLayout2.setBackgroundColor(Color.TRANSPARENT);
+					linearExtraInfo.setVisibility(View.GONE);
+					relativeBodyInfo.setVisibility(View.GONE);
+					relativeFirenze.setVisibility(View.GONE);
+					//myOverlay.centerMap();
+				} else {
+					infoButton.setSelected(true);
+					relativeLayout2.setBackgroundColor(color);
+					linearExtraInfo.setVisibility(View.VISIBLE);
+					relativeBodyInfo.setVisibility(View.VISIBLE);
+					relativeFirenze.setVisibility(View.VISIBLE);
+				}
 			}
 
 		});
-
-		// GlobalState gs = (GlobalState)getApplication();
-		_route = gs.getActiveRoute();
-		RouteOverlay myOverlay = new RouteOverlay(_route, mapview);
-		mapview.getOverlays().add(myOverlay);
-		populateUi();
-		
-		
-		
-		myOverlay.centerMap();
 	}
 	
 	private void populateUi(){
@@ -171,6 +225,8 @@ public class MyRouteMapActivity extends MapActivity {
 		populateTextView(stringify(_route.getLenght(),"#.# Km"), R.id.distance_km_label);
 		populateTextView(stringify(_route.getGasolineSavedInEuro(), "#.## €"), R.id.benzina_euro_label);
 		populateTextView(stringify(_route.getGasolineSavedInLitre(),"#.# litri"), R.id.benzina_litri_label);
+		populateTextView(stringify(_route.getLostKcal(), "# kcal"), R.id.consumo_calorico_label);
+		populateTextView(stringify(_route.getLostWeight(), "# gr"), R.id.peso_smaltito_label);
 	}
 	
 	private String stringify(double number, String format){

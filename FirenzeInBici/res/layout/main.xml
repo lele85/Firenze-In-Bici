@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent">
 
     <com.google.android.maps.MapView
         android:id="@+id/map"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:apiKey="0EaaTL8zc1jN9AdD-TNjIeEVgk-4ZvyQ0wNq-Hg"
+        android:apiKey="0MikXNd6eKwC0OffYtmZ0DTl7-VQOKGKGatSdew"
         android:clickable="true" />
 
     <RelativeLayout
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/icon_route_info" />
+            android:background="@drawable/icon_route_info_selector" />
 
         <Button
             android:id="@+id/btnpdi"
@@ -64,13 +64,13 @@
             android:background="@drawable/point_of_interest_selector" />
     </RelativeLayout>
 
-    <RelativeLayout
+    <RelativeLayout android:id="@+id/relativeLayout2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/relativeLayout1" >
+        android:layout_below="@+id/relativeLayout1">
 
-        <LinearLayout
+        <LinearLayout android:id="@+id/linearEcoinfo"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -81,7 +81,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="80dp"
                 android:layout_weight="0.33"
-                 android:layout_margin="3dp"
+                android:layout_margin="3dp"
                 android:background="@drawable/rounded_edges"
                 android:orientation="vertical" >
 
@@ -178,6 +178,202 @@
                     android:textColor="@color/firenzeIvory" />
             </LinearLayout>
         </LinearLayout>
+        
+        <LinearLayout android:id="@+id/linearExtraInfo" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/linearEcoinfo"
+            android:visibility="gone">
+           	
+            <LinearLayout android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:text="(1)"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+           		<TextView android:text="Calcolati con velocità 9km/h"
+           		    android:textColor="#000000"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           	   		android:layout_width="0dip"
+           	    	android:layout_height="wrap_content"
+           	    	android:layout_weight="9"/>
+           	</LinearLayout>
+           	<LinearLayout android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:text="(2)"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+           		<TextView android:text="Calcolate su emissione media CO2 per 1 km: 127.97g/km"
+           		    android:textColor="#000000"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           	   		android:layout_width="0dip"
+           	    	android:layout_height="wrap_content"
+           	    	android:layout_weight="9"/>
+           	</LinearLayout>
+           	<LinearLayout android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:text="(3)"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+           		<TextView android:text="Calcolato su consumo medio di 18km/l con auto a benzina verde (prezzo medio 1,9€/litro)"
+           		    android:textColor="#000000"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           	   		android:layout_width="0dip"
+           	    	android:layout_height="wrap_content"
+           	    	android:layout_weight="9"/>
+           	</LinearLayout>
+        </LinearLayout>
+        
     </RelativeLayout>
-
+    
+    <RelativeLayout android:id="@+id/relativeLayout3" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/firenzeRed">
+        <Button android:id="@+id/btnposition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_position_selector" />
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/relativeBodyInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:visibility="gone">
+    	<LinearLayout android:id="@+id/linearBodyInfo"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:background="@color/firenzeDarkGray">
+        	<TextView android:text="Per il tuo benessere"
+        	    android:textColor="@color/firenzeIvory"
+        	    android:textAppearance="?android:attr/textAppearanceMedium"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:paddingTop="5dp"
+        	    android:paddingBottom="5dp"
+        	    android:paddingLeft="15dip"/>
+        	<LinearLayout android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:background="@drawable/rounded_edges"
+        	    android:orientation="horizontal"
+        	    android:layout_gravity="center"
+        	    android:layout_marginRight="10dp"
+        	    android:layout_marginLeft="10dp">
+           		<TextView android:layout_width="0dip"
+           		    android:layout_height="wrap_content"
+           		    android:layout_weight="7"
+           		    android:paddingLeft="15dp"
+           		    android:text="Consumo calorico"
+           		    android:textColor="@color/firenzeIvory"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"/>
+           		<TextView android:id="@+id/consumo_calorico_label" 
+           		    android:layout_width="0dip"
+           		    android:layout_height="wrap_content"
+           		    android:layout_weight="3"
+           		    android:paddingRight="15dp"
+           		    android:textColor="@color/firenzeIvory"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           		    android:textStyle="bold"
+           		    android:gravity="right"/>
+        	</LinearLayout>
+        	<LinearLayout android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:background="@drawable/rounded_edges"
+        	    android:orientation="horizontal"
+        	    android:layout_gravity="center"
+        	    android:layout_marginTop="3dp"
+        	    android:layout_marginRight="10dp"
+        	    android:layout_marginLeft="10dp">
+           		<TextView android:layout_width="0dip"
+           		    android:layout_height="wrap_content"
+           		    android:layout_weight="7"
+           		    android:paddingLeft="15dp"
+           		    android:text="Peso smaltito"
+           		    android:textColor="@color/firenzeIvory"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"/>
+           		<TextView android:id="@+id/peso_smaltito_label" 
+           		    android:layout_width="0dip"
+           		    android:layout_height="wrap_content"
+           		    android:layout_weight="3"
+           		    android:paddingRight="15dp"
+           		    android:textColor="@color/firenzeIvory"
+           		    android:textAppearance="?android:attr/textAppearanceMedium"
+           		    android:textStyle="bold"
+           		    android:gravity="right"/>
+        	</LinearLayout>
+        	<TextView android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:paddingTop="5dp"
+        	    android:text="calcolati su persona di 70 kg, con velocità di 9km/h"
+        	    android:textAppearance="?android:attr/textAppearanceSmall"
+        	    android:textColor="@color/firenzeIvory"
+        	    android:paddingLeft="15dp"
+        	    android:paddingBottom="30dp"/>
+    	</LinearLayout>
+   	</RelativeLayout>
+   	<RelativeLayout android:id="@+id/relativeFirenze"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:layout_below="@+id/relativeBodyInfo"
+   	    android:visibility="gone">
+   	    <LinearLayout android:layout_width="fill_parent"
+   	        android:layout_height="fill_parent"
+   	        android:orientation="horizontal"
+   	        android:background="@color/firenzeRed">
+        	<ImageView android:layout_weight="3" 
+        	    android:layout_width="0dp"
+        	    android:layout_height="wrap_content"
+        	    android:src="@drawable/launcher_icon96x96"
+        	    android:layout_gravity="center"/>
+        	<LinearLayout android:orientation="vertical" 
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="wrap_content"
+        	    android:paddingRight="5dp"
+        	    android:layout_gravity="center">
+        		<TextView android:layout_weight="0.33"
+        	    	android:layout_width="wrap_content"
+	        	    android:layout_height="0dp"
+    	    	    android:text="Questo itinerario ciclabile"
+        		    android:textAppearance="?android:attr/textAppearanceLarge"
+        		    android:textColor="@color/firenzeIvory"/>
+        		<TextView android:layout_weight="0.33"
+        	    	android:layout_width="wrap_content"
+	        	    android:layout_height="0dp"
+    	    	    android:text="fa bene a te e alla nostra città."
+        		    android:textAppearance="?android:attr/textAppearanceLarge"
+        		    android:textColor="@color/firenzeIvory"/>
+        		<TextView android:layout_weight="0.33"
+        	    	android:layout_width="wrap_content"
+	        	    android:layout_height="0dp"
+	        	    android:textStyle="bold"
+    	    	    android:text="Grazie dal Comune di Firenze."
+        		    android:textAppearance="?android:attr/textAppearanceLarge"
+        		    android:textColor="@color/firenzeIvory"/>
+        	</LinearLayout>
+   	    </LinearLayout>
+   	</RelativeLayout>
 </RelativeLayout>

@@ -23,9 +23,11 @@ public class MainTabActivity extends TabActivity {
 				RouteSelectionActivity.class);
 		Intent allNetworkIntent = new Intent().setClass(this,
 				AllNetworkMapActivity.class);
+		Intent suggestARouteIntent = new Intent().setClass(this,
+				SuggestARouteActivity.class);
 		setupTab(new TextView(this), "Percorsi Suggeriti", tabHost, routeSelectionIntent, R.layout.tab_layout);
 		setupTab(new TextView(this), "Tutta La Rete Ciclabile", tabHost, allNetworkIntent, R.layout.tab_layout);
-		setupTab(new TextView(this), "Proponi il tuo percorso", tabHost, allNetworkIntent, R.layout.tab_layout);
+		setupTab(new TextView(this), "Proponi il tuo percorso", tabHost, suggestARouteIntent, R.layout.tab_layout);
 
 		tabHost.setCurrentTab(0);
 

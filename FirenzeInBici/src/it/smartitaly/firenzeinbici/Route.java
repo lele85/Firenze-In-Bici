@@ -1,6 +1,5 @@
 package it.smartitaly.firenzeinbici;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +14,6 @@ import org.w3c.dom.NodeList;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 
 import com.google.android.maps.GeoPoint;
@@ -146,6 +143,14 @@ public class Route {
 	
 	public String getThumb(){
 		return thumb_name;
+	}
+	
+	public double getLostWeight(){
+		return 13;
+	}
+	
+	public double getLostKcal(){
+		return 105;
 	}
 	
 	// Speed km/h
