@@ -54,7 +54,7 @@ public class MyRouteMapActivity extends MapActivity {
 		setContentView(R.layout.main);
 
 		mapview = (MapView) findViewById(R.id.map);
-		mapview.setBuiltInZoomControls(true);
+		mapview.setBuiltInZoomControls(false);
 		
 		mapOverlays = mapview.getOverlays();
 		myLocationOverlay = new MyLocationOverlay(getApplicationContext(), mapview);
