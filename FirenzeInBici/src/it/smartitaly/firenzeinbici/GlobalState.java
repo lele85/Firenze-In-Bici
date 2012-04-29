@@ -12,6 +12,7 @@ public class GlobalState extends Application {
 	private List<Fountain> _fountains;
 	private List<BikeRack> _bikeRacks;
 	private EnumMap<OverlayType, Boolean> _overlayStatus;
+	private List<RechargeSpot> _rechargeSpots;
 	
 	public void setNetwork(Network network){
 		_network = network;
@@ -50,6 +51,15 @@ public class GlobalState extends Application {
 	
 	public List<BikeRack> getBikeRacks(){
 		return _bikeRacks;
+	}
+
+	public void setRechargeSpots(List<RechargeSpot> rechargeSpots) {
+		_rechargeSpots = rechargeSpots;
+		
+	}
+	
+	public List<RechargeSpot> getRechargeSpots(){
+		return _rechargeSpots;
 	}
 	
 }

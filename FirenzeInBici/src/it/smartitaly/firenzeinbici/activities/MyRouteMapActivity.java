@@ -6,9 +6,11 @@ import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.OverlayManager;
 import it.smartitaly.firenzeinbici.OverlayType;
 import it.smartitaly.firenzeinbici.R;
+import it.smartitaly.firenzeinbici.RechargeSpot;
 import it.smartitaly.firenzeinbici.Route;
 import it.smartitaly.firenzeinbici.overlays.BikeRacksOverlay;
 import it.smartitaly.firenzeinbici.overlays.FountainsOverlay;
+import it.smartitaly.firenzeinbici.overlays.RechargeSpotsOverlay;
 import it.smartitaly.firenzeinbici.overlays.RouteOverlay;
 
 import java.text.DecimalFormat;
@@ -46,6 +48,7 @@ public class MyRouteMapActivity extends MapActivity {
 	Button infoButton, pointsOfInterestButton, myPositionButton;
 	List<Fountain> fountains;
 	List<BikeRack> racks;
+	List<RechargeSpot> rechargeSpots;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -70,20 +73,25 @@ public class MyRouteMapActivity extends MapActivity {
 		GlobalState gs = (GlobalState) getApplication();
 		fountains = gs.getFountains();
 		racks = gs.getBikeRacks();
+		rechargeSpots = gs.getRechargeSpots();
+		
 
 		Drawable fountainMarker = getResources().getDrawable(
 				R.drawable.markerfontanella);
 		Drawable bikeRackMarker = getResources().getDrawable(
 				R.drawable.markerrastrelliera);
+		Drawable rechargeSpotMarker = getResources().getDrawable(
+				R.drawable.markercolonninericarica);
 		
-		FountainsOverlay fountainsOverlay = new FountainsOverlay(fountainMarker,
-				fountains, this);
+		FountainsOverlay fountainsOverlay = new FountainsOverlay(fountainMarker,fountains, this);
 		BikeRacksOverlay bikeRacksOverlay = new BikeRacksOverlay(bikeRackMarker, racks, this);
+		RechargeSpotsOverlay rechargeSpotsOverlay = new RechargeSpotsOverlay(rechargeSpotMarker,rechargeSpots, this);
 		
 		EnumMap<OverlayType, Overlay> overlays = new EnumMap<OverlayType, Overlay>(
 				OverlayType.class);
 		overlays.put(OverlayType.FONTANELLE, fountainsOverlay);
 		overlays.put(OverlayType.RASTRELLIERE, bikeRacksOverlay);
+		overlays.put(OverlayType.COLONNINE_RICARICA, rechargeSpotsOverlay);
 		
 		final EnumMap<OverlayType, Boolean> overlaysStatus = gs
 				.getOverlayStatus();
@@ -95,11 +103,13 @@ public class MyRouteMapActivity extends MapActivity {
 		final EnumMap<OverlayType, String> overlayTypeChekboxLabels = new EnumMap<OverlayType, String>(OverlayType.class);
 		overlayTypeChekboxLabels.put(OverlayType.FONTANELLE, "Fontanelle");
 		overlayTypeChekboxLabels.put(OverlayType.RASTRELLIERE, "Rastrelliere");
+		overlayTypeChekboxLabels.put(OverlayType.COLONNINE_RICARICA, "Colonnine per ricarica");
 
 		
 		final Map<Integer, OverlayType> overlayTypeChekboxOrder = new HashMap<Integer, OverlayType>();
 		overlayTypeChekboxOrder.put(0, OverlayType.RASTRELLIERE);
 		overlayTypeChekboxOrder.put(1, OverlayType.FONTANELLE);
+		overlayTypeChekboxOrder.put(2, OverlayType.COLONNINE_RICARICA);
 
 		
 		pointsOfInterestButton = (Button) findViewById(R.id.btnpdi);
@@ -111,12 +121,14 @@ public class MyRouteMapActivity extends MapActivity {
 				{
 					overlayTypeChekboxLabels.get(OverlayType.RASTRELLIERE),
 					overlayTypeChekboxLabels.get(OverlayType.FONTANELLE),
+					overlayTypeChekboxLabels.get(OverlayType.COLONNINE_RICARICA)
 				};
 				
 				boolean[] initialitemschecked =
 				{
 					overlaysStatus.get(OverlayType.RASTRELLIERE),
 					overlaysStatus.get(OverlayType.FONTANELLE),
+					overlaysStatus.get(OverlayType.COLONNINE_RICARICA)
 				};
 
 				AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -173,6 +185,7 @@ public class MyRouteMapActivity extends MapActivity {
 			
 			@Override
 			public void onClick(View v) {
+				mapview.setSatellite(true);
 				if (myPositionButton.isSelected()){
 					myPositionButton.setSelected(false);
 					mapview.getController().animateTo(_route.getCenter());
@@ -213,10 +226,36 @@ public class MyRouteMapActivity extends MapActivity {
 					relativeFirenze.setVisibility(View.VISIBLE);
 				}
 			}
-
 		});
+		
+		initStreetSatelliteSelector();
 	}
 	
+	
+	private void initStreetSatelliteSelector() {
+		final Button satelliteViewButton = (Button) findViewById(R.id.btn_satellite_view);
+		if (mapview.isSatellite()){
+			satelliteViewButton.setSelected(false);
+		} else {
+			satelliteViewButton.setSelected(true);
+		}
+		satelliteViewButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {				
+				if (mapview.isSatellite()){
+					mapview.setSatellite(false);
+					satelliteViewButton.setSelected(true);
+				} else
+				{
+					mapview.setSatellite(true);
+					satelliteViewButton.setSelected(false);
+				}
+			}
+		});
+		
+	}
+
 	private void populateUi(){
 		populateTextView(_route.getName(), R.id.top_bar_name);
 		populateTextView(_route.getDescription(), R.id.top_bar_description);

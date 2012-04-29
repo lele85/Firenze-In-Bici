@@ -6,6 +6,7 @@ import it.smartitaly.firenzeinbici.GlobalState;
 import it.smartitaly.firenzeinbici.Network;
 import it.smartitaly.firenzeinbici.OverlayType;
 import it.smartitaly.firenzeinbici.R;
+import it.smartitaly.firenzeinbici.RechargeSpot;
 import it.smartitaly.firenzeinbici.listeners.OnNetworkDataAvailableListener;
 
 import java.util.EnumMap;
@@ -49,23 +50,33 @@ public class FirenzeInBiciActivity extends Activity {
 		@Override
 		protected String doInBackground(String... arg0) {
 
-			List<Fountain> fountains = Fountain.getAll(getResources()
-					.openRawResource(R.raw.fontanelli));
+			List<Fountain> fountains = Fountain
+					.getAll(
+							getResources()
+							.openRawResource(R.raw.fontanelli));
 
-			List<BikeRack> racks = BikeRack.getAll(getResources()
-					.openRawResource(R.raw.rastrelliere));
-			Network network = new Network(getResources().openRawResource(
-					R.raw.ciclabili_percorsi_ciclabili));
+			List<BikeRack> racks = BikeRack
+					.getAll(
+							getResources()
+							.openRawResource(R.raw.rastrelliere));
+			
+			List<RechargeSpot> rechargeSpots = RechargeSpot
+					.getAll(
+							getResources()
+							.openRawResource(R.raw.arredo_urbano_colonninericarica));
+			
+			Network network = new Network(getResources().openRawResource(R.raw.ciclabili_percorsi_ciclabili));
 
 			EnumMap<OverlayType, Boolean> globalOverlayStatus = new EnumMap<OverlayType, Boolean>(
 					OverlayType.class);
 			globalOverlayStatus.put(OverlayType.FONTANELLE, new Boolean(false));
-			globalOverlayStatus.put(OverlayType.RASTRELLIERE,
-					new Boolean(false));
+			globalOverlayStatus.put(OverlayType.RASTRELLIERE, new Boolean(false));
+			globalOverlayStatus.put(OverlayType.COLONNINE_RICARICA, new Boolean(false));
 
 			final GlobalState globalState = (GlobalState) getApplication();
 			globalState.setFountains(fountains);
 			globalState.setBikeRacks(racks);
+			globalState.setRechargeSpots(rechargeSpots);
 			globalState.setOverlayStatus(globalOverlayStatus);
 			globalState.setNetwork(network);
 
