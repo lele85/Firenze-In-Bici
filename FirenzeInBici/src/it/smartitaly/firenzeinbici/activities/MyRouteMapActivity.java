@@ -185,7 +185,6 @@ public class MyRouteMapActivity extends MapActivity {
 			
 			@Override
 			public void onClick(View v) {
-				mapview.setSatellite(true);
 				if (myPositionButton.isSelected()){
 					myPositionButton.setSelected(false);
 					mapview.getController().animateTo(_route.getCenter());
