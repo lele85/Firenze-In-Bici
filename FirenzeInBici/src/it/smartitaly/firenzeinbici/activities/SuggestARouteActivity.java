@@ -10,14 +10,15 @@ import android.widget.EditText;
 
 public class SuggestARouteActivity extends Activity {
 	
-	EditText edittext;
+	EditText message_text, name_text;
 	Button btnsend;
 	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.suggest_route);
 		
-		edittext = (EditText)findViewById(R.id.edittext);
+		message_text = (EditText)findViewById(R.id.message_text);
+		name_text = (EditText)findViewById(R.id.name_text);
 		
 		final Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 		emailIntent.setType("plain/text");
@@ -29,7 +30,8 @@ public class SuggestARouteActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, edittext.getText().toString());
+				emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, message_text.getText().toString() +
+						"\n\n\n" + name_text.getText().toString());
 				startActivity(Intent.createChooser(emailIntent, "Invia email con..."));
 			}
 		});

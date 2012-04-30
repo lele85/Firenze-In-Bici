@@ -6,5 +6,8 @@
     <string name="textinfo">Info</string>
     <string name="pdiinfo">PDI</string>
     <string name="imagedescription">No Image Available</string>
+    <string name="namelabel">Nome e Cognome:</string>
+    <string name="messagelabel">Message:</string>
+    <string name="mailbutton">Invia mail</string>
 
 </resources>
