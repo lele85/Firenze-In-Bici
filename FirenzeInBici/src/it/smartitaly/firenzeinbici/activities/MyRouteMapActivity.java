@@ -101,7 +101,7 @@ public class MyRouteMapActivity extends MapActivity {
 		overlayManager.applyActiveOverlays(mapview);
 		
 		final EnumMap<OverlayType, String> overlayTypeChekboxLabels = new EnumMap<OverlayType, String>(OverlayType.class);
-		overlayTypeChekboxLabels.put(OverlayType.FONTANELLE, "Fontanelle");
+		overlayTypeChekboxLabels.put(OverlayType.FONTANELLE, "Fontanelli");
 		overlayTypeChekboxLabels.put(OverlayType.RASTRELLIERE, "Rastrelliere");
 		overlayTypeChekboxLabels.put(OverlayType.COLONNINE_RICARICA, "Colonnine per ricarica");
 
@@ -262,7 +262,7 @@ public class MyRouteMapActivity extends MapActivity {
 		populateTextView(stringify(_route.getCo2SavedInGrams(), "#.### g"), R.id.co2_g_label);
 		populateTextView(Integer.toString(_route.getTravelTimeInMinutes()) + " min", R.id.travel_time_min_label);
 		populateTextView(stringify(_route.getLenght(),"#.# Km"), R.id.distance_km_label);
-		populateTextView(stringify(_route.getGasolineSavedInEuro(), "#.## â‚¬"), R.id.benzina_euro_label);
+		populateTextView(stringify(_route.getGasolineSavedInEuro(), "#.## Û"), R.id.benzina_euro_label);
 		populateTextView(stringify(_route.getGasolineSavedInLitre(),"#.# litri"), R.id.benzina_litri_label);
 		populateTextView(stringify(_route.getBurnedKcal(), "# kcal"), R.id.consumo_calorico_label);
 		populateTextView(stringify(_route.getGramsOfFatBurned(), "# gr"), R.id.peso_smaltito_label);

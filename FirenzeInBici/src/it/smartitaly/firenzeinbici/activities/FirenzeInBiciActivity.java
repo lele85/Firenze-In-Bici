@@ -28,11 +28,11 @@ public class FirenzeInBiciActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.imagepreview);
 
-		Drawable firenzeinbicipreview = getResources().getDrawable(
-				R.drawable.firenzeinbicipreview);
-
-		imagepreview = (ImageView) findViewById(R.id.imagepreview);
-		imagepreview.setBackgroundDrawable(firenzeinbicipreview);
+//		Drawable firenzeinbicipreview = getResources().getDrawable(
+//				R.drawable.firenzeinbicipreview);
+//
+//		imagepreview = (ImageView) findViewById(R.id.imagepreview);
+//		imagepreview.setBackgroundDrawable(firenzeinbicipreview);
 
 		parse = new ParseAll();
 		parse.execute();

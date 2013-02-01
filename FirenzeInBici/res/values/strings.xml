@@ -2,12 +2,13 @@
 <resources>
 
     <string name="hello">Hello World, Apps4ItalyActivity!</string>
-    <string name="app_name">FirenzeInBici</string>
+    <string name="app_name">Bike Firenze</string>
     <string name="textinfo">Info</string>
     <string name="pdiinfo">PDI</string>
     <string name="imagedescription">No Image Available</string>
     <string name="namelabel">Nome e Cognome:</string>
-    <string name="messagelabel">Message:</string>
+    <string name="messagelabel">Messaggio:</string>
     <string name="mailbutton">Invia mail</string>
+    <string name="disclaimer_percorsi"> I percorsi suggeriti sono puramente indicativi delle possibilità di spostamento in bici per raggiungere destinazioni o per anelli dal centro verso la periferia, preferibilmente lungo il fiume Arno. Le abitudini personali possono suggerire altri itinerari che vi chiediamo gentilmente di segnalarci.</string>
 
 </resources>

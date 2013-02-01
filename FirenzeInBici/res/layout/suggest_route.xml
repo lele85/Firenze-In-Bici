@@ -8,6 +8,7 @@
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
         android:text="@string/namelabel"
+        android:layout_below="@+id/disclaimer_label"
         android:paddingTop="4dp"
         android:paddingBottom="4dp"
         android:paddingLeft="4dp"
