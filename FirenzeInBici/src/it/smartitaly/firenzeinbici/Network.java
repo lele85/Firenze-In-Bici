@@ -28,7 +28,7 @@ public class Network {
 	}
 	
 	public void load(){
-		ParseAllNetwork task = new ParseAllNetwork(this, _definitionFile);
+		ParseAllNetworkXmlPull task = new ParseAllNetworkXmlPull(this, _definitionFile);
 		task.execute("");
 	}
 	

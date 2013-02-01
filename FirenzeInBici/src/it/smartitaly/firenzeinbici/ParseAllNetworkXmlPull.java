@@ -47,86 +47,62 @@ public class ParseAllNetworkXmlPull extends AsyncTask<String, String, String> {
 	}
 
 	public void parseXML(InputStream definitionFile){
-//		try {
-//			XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
-//			factory.setNamespaceAware(true);
-//			XmlPullParser xpp = factory.newPullParser();
-//			
-//			xpp.setInput(definitionFile,"UTF-8");
-//			int eventType = xpp.getEventType();
-//			while (eventType != XmlPullParser.END_DOCUMENT) {
-//		          if(eventType == XmlPullParser.START_DOCUMENT) {
-//		              System.out.println("Start document");
-//		          } else if(eventType == XmlPullParser.START_TAG) {
-//		              System.out.println("Start tag "+xpp.getName());
-//		          } else if(eventType == XmlPullParser.END_TAG) {
-//		              System.out.println("End tag "+xpp.getName());
-//		          } else if(eventType == XmlPullParser.TEXT) {
-//		              System.out.println("Text "+xpp.getText());
-//		          }
-//		          try {
-//					eventType = xpp.next();
-//				} catch (IOException e) {
-//					e.printStackTrace();
-//				}
-//			}
-//			
-//		} catch (XmlPullParserException e1) {
-//			e1.printStackTrace();
-//		}
-		NodeList nList = null;
+		boolean inMultiGeometry = false;
+		boolean inLineString = false;
+		boolean inCoordinates = false;
+		
+		ArrayList<GeoPoint> currentPath = null;
 		
 		try {
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(definitionFile);
-			doc.getDocumentElement().normalize();
-	 
-			//List of "Placemark" nodes
-			nList = doc.getElementsByTagName("MultiGeometry");
+			XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+			factory.setNamespaceAware(true);
+			XmlPullParser xpp = factory.newPullParser();
 			
-			//Extract coordinates from "Placemarks" nodes
-			extractCoordinates(nList);
-            
-		  } catch (Exception e) {
-			e.printStackTrace();
-		  }
-	}
-	
-	public void extractCoordinates(NodeList nList){
-		for (int i = 0; i < nList.getLength(); i++){
-			ArrayList<GeoPoint> path = new ArrayList<GeoPoint>();
-			Node nNodeExt = nList.item(i);
-			if (nNodeExt.getNodeType() == Node.ELEMENT_NODE){
-				Element ePlacemarks = (Element) nNodeExt;
-				//List of "Point" nodes
-				String point = getTagValue("coordinates",ePlacemarks);
-				GeoPoint center;
-				center= returnGeo(point);
-				
-				//List of "LineString" nodes
-				NodeList nCoordinates = ePlacemarks.getElementsByTagName("LineString");
-				for (int j = 0; j < nCoordinates.getLength(); j++){
-					Node nNodeInt = nCoordinates.item(j);
-					if (nNodeInt.getNodeType() == Node.ELEMENT_NODE){
-						Element eCoordinates = (Element) nNodeInt;
-						String[] appl = getTagValue("coordinates",eCoordinates).split("[ ]");
-		    		  	for (int a = 0; a < appl.length; a++){
-		    				path.add(returnGeo(appl[a]));
+			xpp.setInput(definitionFile,"UTF-8");
+			int eventType = xpp.getEventType();
+			while (eventType != XmlPullParser.END_DOCUMENT) {
+		          if(eventType == XmlPullParser.START_DOCUMENT) {
+		              System.out.println("Start document");
+		          } else if(eventType == XmlPullParser.START_TAG) {
+		        	  String tagName = xpp.getName();
+		        	  if (tagName.equals("MultiGeometry")){
+		        		  currentPath = new ArrayList<GeoPoint>();
+		        		  inMultiGeometry = true;
+		        	  } else if(tagName.equals("LineString")){
+		        		  inLineString = true;
+		        	  } else if(tagName.equals("coordinates")){
+		        		  inCoordinates = true;
+		        	  }
+		          } else if(eventType == XmlPullParser.END_TAG) {
+		        	  String tagName = xpp.getName();
+		        	  if (tagName.equals("MultiGeometry")){
+		        		  inMultiGeometry = false;
+		        	  } else if(tagName.equals("LineString")){
+		        		  inLineString = false;
+		        		  _parsed_paths.add(currentPath);
+		        		  currentPath = null;
+		        	  } else if(tagName.equals("coordinates")){
+		        		  inCoordinates = false;
+		        	  }
+		          } else if(eventType == XmlPullParser.TEXT) {
+		        	  if (inMultiGeometry && inCoordinates && inLineString){
+		        		  String[] strPoints = xpp.getText().split("[ ]");
+		        		  for (String strPoint : strPoints) {
+		        			  currentPath.add(returnGeo(strPoint));
 						}
-					}
+		              }
+		          }
+		          try {
+					eventType = xpp.next();
+				} catch (IOException e) {
+					e.printStackTrace();
 				}
-    		  	_parsed_paths.add(path);
 			}
+		} catch (XmlPullParserException e1) {
+			e1.printStackTrace();
 		}
+		
 	}
-	
-	private static String getTagValue(String sTag, Element eElement) {
-		NodeList nlList = eElement.getElementsByTagName(sTag).item(0).getChildNodes();
-	    Node nValue = (Node) nlList.item(0);
-	    return nValue.getNodeValue();
-	}
-	
 	
 	public static GeoPoint returnGeo(String point){
 		String[] geo = point.split("[,]");
