@@ -82,22 +82,21 @@ public class FirenzeInBiciActivity extends Activity {
 
 			return null;
 		}
-
+		
 		@Override
 		protected void onPostExecute(String result) {
 			final Intent intent = new Intent(FirenzeInBiciActivity.this,
-					MainTabActivity.class);
+					MainTabActivity.class).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
 			final Network network = ((GlobalState) getApplication())
 					.getNetwork();
-
+			
 			OnNetworkDataAvailableListener listener = new OnNetworkDataAvailableListener() {
-
+				
 				@Override
 				public void OnNetworkDataAvailable() {
 					startActivity(intent);
 					imagepreview = null;
-					finish();
 				}
 			};
 
@@ -105,6 +104,5 @@ public class FirenzeInBiciActivity extends Activity {
 			network.load();
 			super.onPostExecute(result);
 		}
-
 	}
 }

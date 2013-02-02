@@ -116,7 +116,7 @@ public class MainTabActivity extends TabActivity {
 	    DialogInterface.OnClickListener listener = new OnClickListener() {
 	        @Override
 	        public void onClick(DialogInterface dialog, int which) {
-	            finish();
+	        	moveTaskToBack (true);
 	        }
 	    };
 	    AlertDialog.Builder bldr = new Builder(this);
