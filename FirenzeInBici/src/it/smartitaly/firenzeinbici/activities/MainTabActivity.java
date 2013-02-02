@@ -48,9 +48,12 @@ public class MainTabActivity extends TabActivity {
 					previous_tab = 0;
 				}
 				if (tabId == "ALL_NET"){
-					Toast.makeText(tabHost.getTabWidget().getContext(), "Controlla la tua connessione a internet per visualizzare la mappa", Toast.LENGTH_LONG).show();
-					tabHost.setCurrentTab(previous_tab);
-					previous_tab = 1;
+					if (!checkConnection()){
+						tabHost.setCurrentTab(previous_tab);
+					} else {
+						previous_tab = 1;
+					}
+					
 				}
 				if (tabId == "PROPONI"){
 					previous_tab = 2;
@@ -63,6 +66,22 @@ public class MainTabActivity extends TabActivity {
 		tabHost.setCurrentTab(getStartTabIndex());
 
 	}
+	
+	private boolean checkConnection(){
+		ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+		NetworkInfo info = cm.getActiveNetworkInfo();
+		if (info != null) {
+		    if (!info.isConnected()) {
+		        Toast.makeText(this, "Controlla la tua connessione a internet per visualizzare la mappa", Toast.LENGTH_LONG).show();
+		        return false;
+		    }
+		}
+		else {
+		    Toast.makeText(this, "Controlla la tua connessione a internet per visualizzare la mappa.", Toast.LENGTH_LONG).show();
+		    return false;
+		}
+		return true;
+	};
 	
 	
 	private int getStartTabIndex(){
