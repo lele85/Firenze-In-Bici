@@ -1,8 +1,12 @@
 package it.smartitaly.firenzeinbici.activities;
 
 import it.smartitaly.firenzeinbici.R;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
 import android.app.TabActivity;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -46,5 +50,20 @@ public class MainTabActivity extends TabActivity {
 		TextView tv = (TextView) view.findViewById(R.id.tabsText);
 		tv.setText(text);
 		return view;
+	}
+	
+	@Override
+	public void onBackPressed() {
+	    DialogInterface.OnClickListener listener = new OnClickListener() {
+	        @Override
+	        public void onClick(DialogInterface dialog, int which) {
+	            finish();
+	        }
+	    };
+	    AlertDialog.Builder bldr = new Builder(this);
+	    bldr.setMessage("Vuoi uscire da Bike Firenze?");
+	    bldr.setPositiveButton(android.R.string.yes, listener);
+	    bldr.setNegativeButton(android.R.string.no, null);
+	    bldr.show();
 	}
 }

@@ -29,5 +29,10 @@ public class AllNetworkMapActivity extends MapActivity {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
+	
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		this.getParent().onBackPressed();
+	}
 }

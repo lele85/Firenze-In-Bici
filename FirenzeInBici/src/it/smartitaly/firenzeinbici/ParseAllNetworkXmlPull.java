@@ -107,10 +107,12 @@ public class ParseAllNetworkXmlPull extends AsyncTask<String, String, String> {
 	public static GeoPoint returnGeo(String point){
 		String[] geo = point.split("[,]");
 		double latitude = Double.parseDouble(geo[1]) * 1000000;
-		int officiallatitude = new BigDecimal (latitude, new MathContext(9)).intValue();
 		double longitude = Double.parseDouble(geo[0]) * 1000000;
-		int officiallongitude = new BigDecimal (longitude, new MathContext(9)).intValue();
-		GeoPoint geopoint = new GeoPoint(officiallatitude,officiallongitude);
+//		double latitude = Double.parseDouble(geo[1]) * 1000000;
+//		int officiallatitude = new BigDecimal (latitude, new MathContext(9)).intValue();
+//		double longitude = Double.parseDouble(geo[0]) * 1000000;
+//		int officiallongitude = new BigDecimal (longitude, new MathContext(9)).intValue();
+		GeoPoint geopoint = new GeoPoint((int) latitude,(int) longitude);
 		return geopoint;
 	}
 	
