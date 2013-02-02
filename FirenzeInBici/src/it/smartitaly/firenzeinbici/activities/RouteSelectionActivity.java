@@ -9,14 +9,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 import android.widget.SimpleAdapter.ViewBinder;
 
 import com.google.android.maps.MapActivity;
@@ -88,10 +92,28 @@ public class RouteSelectionActivity extends MapActivity {
 								MyRouteMapActivity.class);
 						_globalState.setActiveRoute(finalroutes
 								.get(selected_index));
-						startActivity(i);
+						if (checkConnection()){
+							startActivity(i);
+						}
 					}
 				});
 	}
+	
+	private boolean checkConnection(){
+		ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+		NetworkInfo info = cm.getActiveNetworkInfo();
+		if (info != null) {
+		    if (!info.isConnected()) {
+		        Toast.makeText(this, "Controlla la tua connessione a internet per visualizzare il percorso.", Toast.LENGTH_LONG).show();
+		        return false;
+		    }
+		}
+		else {
+		    Toast.makeText(this, "Controlla la tua connessione a internet per visualizzare il percorso.", Toast.LENGTH_LONG).show();
+		    return false;
+		}
+		return true;
+	};
 	
 	private String getTimeAndDistanceLabelText(double distance, int minutes){
 	        DecimalFormat df = new DecimalFormat("#.##");

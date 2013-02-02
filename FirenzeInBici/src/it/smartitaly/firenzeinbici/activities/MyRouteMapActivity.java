@@ -20,9 +20,12 @@ import java.util.List;
 import java.util.Map;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +34,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapView;
@@ -38,7 +42,8 @@ import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.Overlay;
 
 public class MyRouteMapActivity extends MapActivity {
-
+	
+	
 	RelativeLayout relativeLayout2, relativeBodyInfo, relativeFirenze;
 	LinearLayout linearEcoInfo, linearExtraInfo;
 	private Route _route;
@@ -54,6 +59,7 @@ public class MyRouteMapActivity extends MapActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
 		setContentView(R.layout.main);
 
 		mapview = (MapView) findViewById(R.id.map);
