@@ -42,7 +42,7 @@ public class SuggestARouteActivity extends Activity {
 		
 		final Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 		emailIntent.setType("plain/text");
-		emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"apps4italy@e-xtrategy.net"});
+		emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"info@smartitaly.it"});
 		emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Nuova proposta di percorso");
 		
 		btnsend = (Button)findViewById(R.id.btnsend);
