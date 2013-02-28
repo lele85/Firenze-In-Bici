@@ -443,7 +443,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="0.33"
-                    android:text="Grazie dal Comune di Firenze."
+                    android:text="Firenze ti ringrazia."
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/firenzeIvory"
                     android:textStyle="bold" />
